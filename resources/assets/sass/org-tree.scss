@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/05/2017, 10:38:14 AM
+    Author     : michaelesteves
+*/
+
+.placeholder {
+    outline: 1px dashed $brand-primary;
+}
+
+.mjs-nestedSortable-error {
+    background: #fbe3e4;
+    border-color: transparent;
+}
+
+ol {
+    padding-left: 25px;
+}
+
+ol.siblings,
+ol.siblings ol,
+ol.sortable,
+ol.sortable ol {
+    list-style-type: none;
+}
+
+.siblings .menuEdit {
+    background-color: grey;
+}
+
+.sortable li{
+    position: relative;
+}
+
+.sortable li .menuDiv {
+    cursor: move;
+    border: 1px solid lighten($brand-primary, 50%);
+    border-left-width: 2px;
+    margin-bottom: 2px;
+    margin: 0;
+    padding: 5px 10px;
+    
+    .button-open-right{
+        margin-left: 10px;
+    }
+}
+
+.sortable li > ol > li::before{
+    position: absolute;
+    top: 0;
+    left: -15px;
+    width: 15px;
+    height: 100%;
+    border-left: 2px solid $brand-primary;
+    content: "";
+    display: block;
+}
+
+.sortable li > ol > li::after{
+    position: absolute;
+    top: 15px;
+    left: -15px;
+    width: 15px;
+    height: 2px;
+    background: $brand-primary;
+    content: "";
+    display: block;
+}
+
+.sortable li > ol > li:last-child::before{
+    height: 15px;
+}
+
+li.mjs-nestedSortable-collapsed.mjs-nestedSortable-hovering div {
+    border-color: #999;
+}
+
+.sortable li.mjs-nestedSortable-collapsed > ol {
+    display: none;
+}

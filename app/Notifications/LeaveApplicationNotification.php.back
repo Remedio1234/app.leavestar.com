@@ -1,0 +1,109 @@
+<?php
+
+namespace App\Notifications;
+
+use Illuminate\Bus\Queueable;
+use Illuminate\Notifications\Notification;
+use Illuminate\Contracts\Queue\ShouldQueue;
+use Illuminate\Notifications\Messages\MailMessage;
+use App\Models\LeaveApplication;
+
+class LeaveApplicationNotification extends Notification {
+
+    use Queueable;
+
+    /**
+     * Create a new notification instance.
+     *
+     * @return void
+     */
+    private $leaveapplication;
+    private $type;
+    private $from;
+    private $userTo;
+
+    public function __construct(LeaveApplication $leaveapplication, $type, $from, $userTo) {
+        //
+        $this->leaveapplication = $leaveapplication;
+        $this->type = $type;
+        $this->from = $from;
+        $this->userTo = $userTo;
+    }
+
+    /**
+     * Get the notification's delivery channels.
+     *
+     * @param  mixed  $notifiable
+     * @return array
+     */
+    public function via($notifiable) {
+        //return ['mail'];
+        if ($this->userTo->receiveEmailNotification == 0) {
+            return ['database'];
+        } else {
+
+            return ['database', 'mail'];
+        }
+    }
+
+    /**
+     * Get the mail representation of the notification.
+     *
+     * @param  mixed  $notifiable
+     * @return \Illuminate\Notifications\Messages\MailMessage
+     */
+    public function toMail($notifiable) {
+        switch ($this->type) {
+            case "create":
+                $from = \App\User::find($this->from)->name;
+                $subject = $from . " has created a new leave application in LeaveStar.";
+                $url = action('LeaveApplicationController@manageLeave') . '#leaveappid' . $this->leaveapplication->id;
+                break;
+            case "approved":
+                $subject = "Your leave application has been approved in LeaveStar";
+                $url = action('LeaveApplicationController@myLeaveApplication') . '#leaveappid' . $this->leaveapplication->id;
+                break;
+            case "rejected":
+                $subject = "Your leave application has been rejected in LeaveStar";
+                $url = action('LeaveApplicationController@myLeaveApplication') . '#leaveappid' . $this->leaveapplication->id;
+                break;
+            default:
+                $subject = "New message From LeaveStar";
+                break;
+        }
+
+
+        return (new MailMessage)
+                        ->subject($subject)
+                        ->line($subject . ".")
+                        ->action('See Leave Application', $url)
+                        ->line('Thank you for using LeaveStar!');
+    }
+
+    /**
+     * Get the array representation of the notification.
+     *
+     * @param  mixed  $notifiable
+     * @return array
+     */
+    public function toArray($notifiable) {
+        return [
+                //
+        ];
+    }
+
+    /**
+     * save the notification in DB
+     *
+     * @param  mixed  $notifiable
+     * @return array
+     */
+    public function toDatabase($notifiable) {
+        return [
+            'type' => $this->type,
+            'from' => \App\User::find($this->from)->name,
+            'leaveapplicationID' => $this->leaveapplication->id,
+        ];
+    }
+
+}

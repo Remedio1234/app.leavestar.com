@@ -1,0 +1,1016 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202208 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.app.leavestar.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2000                
+POS_TIME 2691                
+POS_VISITOR 13389               
+POS_DAY 19136               
+POS_DOMAIN 3566                
+POS_LOGIN 4005                
+POS_ROBOT 4160                
+POS_WORMS 5114                
+POS_EMAILSENDER 5245                
+POS_EMAILRECEIVER 5388                
+POS_SESSION 20006               
+POS_SIDER 20218               
+POS_FILETYPES 5523                
+POS_DOWNLOADS 5995                
+POS_OS 6081                
+POS_BROWSER 6325                
+POS_SCREENSIZE 7669                
+POS_UNKNOWNREFERER 7743                
+POS_UNKNOWNREFERERBROWSER 8109                
+POS_ORIGIN 8287                
+POS_SEREFERRALS 8437                
+POS_PAGEREFS 8609                
+POS_SEARCHWORDS 8922                
+POS_KEYWORDS 9074                
+POS_MISC 2354                
+POS_ERRORS 9133                
+POS_CLUSTER 3861                
+POS_SIDER_404 9327                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220901022818 9355 2937248 15164477297431
+FirstTime 20220801000715
+LastTime 20220831235736
+LastUpdate 20220901045100 9355 9180 161 13 0
+TotalVisits 308                 
+TotalUnique 142                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 144                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 27 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 271 482 5964137 97 104 354674
+1 464 772 12642133 92 104 121942
+2 214 367 3695115 109 125 394022
+3 258 377 3817027 108 113 513952
+4 178 243 3951083 59 65 54867
+5 197 287 2270453 124 138 152023
+6 403 633 13788770 111 129 391850
+7 139 230 3730744 165 183 325803
+8 188 246 3489064 151 170 231011
+9 107 112 89204 152 181 701965
+10 11 15 78493 48 58 21957
+11 34 52 400092 79 83 359410
+12 97 97 15320 132 137 607337
+13 25 27 12099 51 64 142159
+14 5 6 44332 39 51 50825
+15 23 43 446847 61 65 582351
+16 50 67 322301 75 83 334062
+17 97 121 373439 34 40 460825
+18 11 14 95578 37 49 387444
+19 131 146 1246489 66 76 424017
+20 223 248 617681 129 145 651660
+21 413 641 9734088 200 209 692794
+22 542 800 14709893 278 292 769221
+23 312 527 9019490 183 199 378372
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 15
+ph 2364 3921 60390172
+au 870 1422 29423488
+us 858 891 472016
+sg 170 177 24223
+de 45 46 68370
+ru 23 23 30398
+jp 20 20 1760
+cn 12 12 9777
+be 8 8 15141
+gb 6 14 6208
+zw 1 1 107
+nl 2 2 27579
+fr 3 3 4234
+unknown 6 8 80015
+id 5 5 384
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 22
+bingbot/ 101 643295 20220831220055 16
+Googlebot/ 49 122729 20220831070023 10
+BLEXBot/ 35 12039 20220831145425 29
+scanner 26 2782 20220828032919 0
+unknown 22 1024 20220827132149 22
+crawl 21 29733 20220819142945 6
+infobot 20 95005 20220827231729 7
+bingpreview 18 324504 20220831093841 0
+DotBot/ 13 17484 20220811204717 10
+custo 11 44304 20220820043835 0
+Googlebot\-Image/ 6 26061 20220824132432 0
+no_user_agent 1 88 20220830161747 0
+AhrefsBot/ 8 8764 20220828071938 5
+oBot/ 4 3171 20220812055625 1
+netEstate[\x20]NE[\x20]Crawler 8 8470 20220803122317 2
+CFNetwork 1 10602 20220805082633 0
+Sogou[\x20]web[\x20]spider/ 1 55 20220820121258 1
+aiHitBot/ 6 33049 20220810164720 1
+python 9 4853 20220827104316 2
+^mozilla\/5\.0$ 3 12060 20220830162029 0
+MJ12bot/ 2 2918 20220818224645 1
+facebookexternalhit/ 6 9679 20220829011322 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 22
+css 939 14440674 0 0
+stage 14 1498 0 0
+txt 2 176 0 0
+woff 1 23424 0 0
+woff2 104 1874912 0 0
+local 14 1498 0 0
+json 29 3103 0 0
+php 305 58311 0 0
+save 14 1498 0 0
+bak 14 1498 0 0
+html 102 9971 0 0
+xml 158 13904 0 0
+backup 14 1498 0 0
+png 143 23581067 0 0
+env 238 25466 0 0
+yml 28 2996 0 0
+prod 14 1498 0 0
+js 708 21841389 0 0
+action 1 107 0 0
+jpeg 87 18543327 0 0
+Unknown 3343 9901515 0 0
+svg 281 224542 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+//wp-includes/ID3/license.txt 2 0 176
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 13
+linuxandroid 839 731
+macosx11 11 11
+winxp 10 10
+winlong 2 2
+ios_iphone 30 13
+linux 49 35
+win7 14 11
+macosx 43 20
+win8 5 5
+macosx10 4 4
+Unknown 159 159
+win8.1 3 3
+win10 5384 3389
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 60
+chrome37.0.2062.124 2 2
+chrome95.0.4638.69 30 28
+chrome31.0.1623.0 4 4
+android 10 10
+firefox52.0 8 8
+chrome39.0.2171.95 4 4
+chrome104.0.5112.102 413 298
+chrome104.0.5112.81 341 168
+chrome71.0.3578.98 20 20
+firefox104.0 72 40
+chrome35.0.3319.102 5 5
+chrome90.0.4430.72 2 2
+chrome103.0.0.0 1288 782
+netscape8.0 1 1
+chrome89.0.4389.114 19 19
+chrome103.0.5060.53 3 2
+firefox59.0 1 1
+chrome27.0.1453.93 5 5
+chrome76.0.3809.71 4 2
+chrome34.0.1847.116 2 2
+chrome50.0.2661.102 3 3
+chrome101.0.4951.40 28 11
+safari14.0.3 2 2
+chrome91.0.4472.114 10 4
+chrome52.0.6009.98 1 1
+chrome74.0.3729.169 13 13
+chrome101.0.0.0 211 166
+safari13.0.3 2 2
+Unknown 153 153
+chrome90.0.4430.85 37 29
+safari15.6.1 26 9
+firefox53.0 2 2
+chrome99.0.4844.88 66 28
+chrome88.0.4324.190 7 7
+firefox77.0 1 1
+chrome64.0.3282.119 4 2
+chrome60.0.3112.107 648 634
+chrome78.0.3904.108 83 83
+firefox58.0 1 1
+chrome102.0.0.0 8 4
+chrome80.0.3987.149 58 58
+chrome93.0.4577.63 10 10
+firefox83.0 2 2
+firefox45.0 1 1
+firefox103.0 8 4
+chrome51.0.2704.103 4 4
+chrome92.0.4515.166 12 12
+msie11.0 7 6
+chrome61.0.3163.79 21 13
+opera10.00 2 2
+firefox96 6 6
+mozilla 5 5
+netscape5.0 4 1
+chrome104.0.0.0 2501 1493
+chrome94.0.4606.61 6 4
+chrome105.0.0.0 19 14
+chrome35.0.2309.372 5 5
+chrome84.0.4147.105 3 2
+safari15.5 1 1
+chrome103.0.5060.134 338 192
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+Go-http-client/2.0 20220819181107
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220819171429
+Mozilla/8.0 20220823140926
+Go-http-client/1.1 20220830161750
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20220813211549
+wp_is_mobile 20220811210458
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Go-http-client/2.0 20220819181107
+Go-http-client/1.1 20220830161750
+wp_is_mobile 20220811210458
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1000 1028
+From1 267 275
+From2 14 14
+From3 54 54
+From4 3058 5182
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+bing 9 9
+www_google_com 5 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+https://leavestar.com 46 46
+https://webtechsurvey.com/website/app.leavestar.com 4 4
+https://www.qtrstar.xyz 2 2
+https://leavestar.com 1 1
+https://l.facebook.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 9
+403 7 114583
+400 83 5817676
+401 5 140
+302 871 331278
+499 1 0
+500 99 911220
+405 1 12474
+404 248 303421
+301 1150 201082
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 97
+/sitemap.xml 3 -
+//style.php 1 bing.com
+/wp-blockdown.php 1 -
+/wso.php 2 -
+/alfacgiapi/perl.alfa 2 www.google.com
+//wp-content/plugins/wpgateway/wpgateway-webservice-new.php 1 www.google.com
+/home/test/wp-includes/wlwmanifest.xml 2 -
+/home/sito/wp-includes/wlwmanifest.xml 2 -
+/sitemap.txt 28 -
+/lgeuxxyc.php 2 www.google.com
+/shop 1 -
+/gcyfhyyf.php 1 www.google.com
+/byaubxho.php 1 www.google.com
+//admin 2 http://app.leavestar.com//admin
+/installer%20%281%29.php 1 http://app.leavestar.com/installer%20%281%29.php
+/dup-installer/main.installer.php 1 http://app.leavestar.com/dup-installer/main.installer.php
+/wp-admin/css 6 binance.com
+/blog/wp-admin/setup-config.php 1 -
+/marijuana.php 2 -
+/wp-blockup.php 1 -
+/home/website/wp-includes/wlwmanifest.xml 2 -
+/wp/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 2 www.google.com
+/wordpress 2 http://app.leavestar.com/wordpress
+/bc 1 http://app.leavestar.com/bc
+/wp-blog-post.php 1 -
+/blog 1 -
+/home/site/wp-includes/wlwmanifest.xml 2 -
+/home/2020/wp-includes/wlwmanifest.xml 1 -
+/assets/plugins/filemanager/dialog.php 1 -
+//wp-includes/css/buttons.css 2 http://app.leavestar.com//wp-includes/css/buttons.css
+/home/blog/wp-includes/wlwmanifest.xml 2 -
+/assets/filemanager/dialog.php 1 -
+/old 2 http://app.leavestar.com/old
+/home/2019/wp-includes/wlwmanifest.xml 2 -
+/apple-touch-icon-152x152.png 1 -
+/main 1 http://app.leavestar.com/main
+/home/web/wp-includes/wlwmanifest.xml 2 -
+/account/check/iaee7svQSWwEIBPyu4jteigVNi7A2nOfYftcTgDgaYfObHo3ya3GXceTOyVH 2 -
+/apple-touch-icon-152x152-precomposed.png 1 -
+/wordpress/wp-admin/setup-config.php 1 -
+/wp-stream.php 1 -
+/wp-login.php 6 http://app.leavestar.com/wp-login.php
+/home/xmlrpc.php 2 -
+//upl.php 1 bing.com
+/ijsygzgx.php 2 www.google.com
+/news/wp-admin/setup-config.php 1 -
+/ALFA_DATA/alfacgiapi/perl.alfa 2 www.google.com
+/.well-known/alfacgiapi 2 www.bing.com
+/site/wp-admin/setup-config.php 1 -
+/google8c81df76e1d17e95.html 1 -
+/assets/administrator/filemanager/dialog.php 1 -
+/sitemap 28 -
+/wp-admin/admin-ajax.php 2 -
+//wpconfig.bak.php 1 bing.com
+/.well-known/ALFA_DATA 2 www.bing.com
+//wp-1ogin_bak.php 1 bing.com
+/home/wp-includes/wlwmanifest.xml 2 -
+/filemanager/dialog.php 1 -
+/weeklNotifications/send/gbkbnaw4o8dbnos744GGJHBOODNE23R9U975CGhdfvHAVooo3 5 -
+//export.php 1 bing.com
+/new 2 http://app.leavestar.com/new
+/wordpress/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 2 www.google.com
+/home/wp/wp-includes/wlwmanifest.xml 2 -
+/ads.txt 1 -
+/home/media/wp-includes/wlwmanifest.xml 1 -
+/home/shop/wp-includes/wlwmanifest.xml 2 -
+/test/wp-admin/setup-config.php 1 -
+//.well-known/xleet.php 1 www.google.com
+/test 1 -
+/bk 1 http://app.leavestar.com/bk
+/c.php 2 -
+/wp-plain.php 6 www.google.com
+/wp/wp-admin/setup-config.php 1 -
+/.well-known/cgialfa 2 www.bing.com
+/wp-beckup.php 1 -
+/wp-commentin.php 4 -
+/Chitoge.php 2 -
+/home/cms/wp-includes/wlwmanifest.xml 2 -
+/home/news/wp-includes/wlwmanifest.xml 2 -
+/_ignition/execute-solution 3 -
+/blog/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 2 www.google.com
+/home/2018/wp-includes/wlwmanifest.xml 1 -
+/alfa4.php 2 -
+/wp 2 http://app.leavestar.com/wp
+/demo 1 -
+/wp-includes/customize/class-wp-customize-nav-menu.php 1 -
+/installer.php 1 http://app.leavestar.com/installer.php
+/assets/admin/js/filemanager/dialog.php 1 -
+/home/wp1/wp-includes/wlwmanifest.xml 2 -
+/wp-admin/setup-config.php 1 -
+/home/wp2/wp-includes/wlwmanifest.xml 2 -
+/wp-content/plugins/instabuilder2/assets/css/instabuilder2.css 2 www.google.com
+/home/wordpress/wp-includes/wlwmanifest.xml 2 -
+//ALFA_DATA/alfacgiapi/perl.alfa 1 -
+/leaveApplicatio/crudCheck 31 -
+/installer-backup.php 1 http://app.leavestar.com/installer-backup.php
+/backup 2 http://app.leavestar.com/backup
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 144
+43.224.189.54 1615 2610 40701649 20220831233618
+159.223.41.248 304 312 33384 20220818202800
+103.17.253.149 258 458 12973484 20220821225532
+103.4.60.121 172 218 1321252 20220829231820
+143.44.165.59 135 201 1579414 20220823013857
+139.130.212.215 102 137 4567590 20220830084511
+185.225.73.101 98 98 10486 20220820121643
+143.44.165.220 84 167 5407856 20220825053121
+192.187.120.178 82 82 8774 20220811210458
+69.30.242.186 82 82 8774 20220811082455
+124.169.29.226 13 30 350557 20220826122828
+154.6.22.1 19 19 1672 20220806094105
+20.0.44.85 1 1 107 20220822170741
+206.189.194.108 5 5 384 20220820203127
+222.127.192.94 14 31 1159468 20220807223136
+64.124.8.30 1 1 1154 20220810002509
+49.148.249.251 61 116 1167947 20220825010048
+3.84.213.252 6 6 7352 20220809192530
+1.146.4.63 16 22 815897 20220830034822
+49.145.129.228 12 14 73964 20220830222908
+49.145.128.95 10 11 89675 20220816054728
+49.145.135.78 51 58 474168 20220804044105
+220.244.136.200 2 4 41134 20220808020645
+114.73.142.76 46 81 787817 20220830010530
+34.76.205.39 4 4 7565 20220824083815
+211.149.175.163 2 2 2872 20220815025249
+216.73.161.145 1 1 107 20220809021643
+146.19.175.96 2 3 40018 20220815175639
+49.146.118.121 40 72 664811 20220831235736
+64.124.8.47 4 7 8751 20220827140319
+159.223.87.229 76 78 8346 20220826091148
+220.233.193.85 18 50 697266 20220830011002
+180.190.160.246 9 24 343426 20220815034742
+175.44.42.221 1 1 1097 20220812050705
+152.67.110.113 1 1 1438 20220827102301
+1.156.213.35 8 23 267480 20220809024623
+103.66.132.170 5 22 306705 20220817221815
+113.31.119.155 4 4 288 20220827083729
+20.25.163.18 2 2 2853 20220819181107
+180.190.192.214 12 29 316051 20220804090659
+54.215.66.176 3 3 3520 20220810090258
+65.108.50.218 2 2 8052 20220830051403
+51.142.191.146 0 8 856 
+20.14.86.193 1 1 4020 20220805035735
+49.148.249.215 24 42 399460 20220810231228
+5.180.82.204 2 3 39998 20220815140602
+23.95.232.212 2 3 39996 20220812060523
+120.41.45.199 2 2 2878 20220804133419
+158.62.79.241 27 44 2060563 20220816012914
+159.196.168.179 1 1 1428 20220805082630
+18.222.213.37 2 5 73794 20220810055045
+173.212.240.227 10 10 0 20220824003834
+209.146.16.4 2 4 41134 20220804081833
+222.127.192.137 15 31 1170726 20220812000027
+65.154.226.168 2 4 41096 20220830192033
+20.214.206.164 80 80 7040 20220808012721
+103.171.181.192 1 1 107 20220812211646
+49.146.231.107 4 8 54811 20220804234826
+212.164.86.4 1 1 107 20220805174050
+66.249.91.5 1 1 60 20220813211549
+64.124.8.54 0 1 862 
+203.118.245.36 2 4 41131 20220804081831
+101.176.202.154 12 29 348036 20220830001140
+49.145.111.56 11 28 367456 20220804071416
+37.120.187.161 1 1 107 20220818214727
+20.226.82.201 2 2 214 20220828173444
+180.190.172.38 11 27 372515 20220811085012
+168.119.238.159 1 1 4020 20220810063527
+20.150.140.112 2 2 214 20220827024306
+34.77.115.75 4 4 7576 20220809074903
+196.44.176.39 1 1 107 20220802192328
+64.124.8.55 2 2 2587 20220826231547
+167.94.138.60 2 2 2881 20220819171429
+20.118.190.194 28 30 2640 20220814213040
+92.60.40.208 1 1 1441 20220823140926
+13.76.132.231 5 5 384 20220813094007
+168.138.31.109 19 19 1672 20220825205836
+20.101.76.76 1 1 26138 20220810050305
+1.132.111.251 39 50 1447559 20220817201405
+212.227.213.151 2 2 214 20220811193104
+20.63.178.241 20 20 1760 20220828163411
+210.23.168.152 15 35 441989 20220811154706
+49.2.156.106 14 34 333393 20220829052520
+49.145.131.64 8 26 337081 20220827021408
+20.163.26.201 2 2 214 20220809133238
+63.141.237.38 1 1 107 20220821183540
+46.161.11.6 2 2 176 20220815122154
+178.238.232.210 10 10 14393 20220830150518
+207.55.255.20 1 1 107 20220817165900
+162.142.125.219 2 2 2879 20220819171429
+18.117.12.180 2 5 73797 20220808090319
+1.146.114.33 34 52 2393786 20220821225939
+124.223.60.26 1 1 1438 20220803011826
+49.145.107.205 4 7 44095 20220824104238
+64.124.8.31 2 4 6005 20220811194208
+1.146.47.69 18 35 1105157 20220830010240
+49.145.129.92 25 44 403327 20220811040628
+104.248.145.150 2 2 214 20220806211747
+45.130.83.25 19 19 1672 20220804130825
+20.68.245.38 1 1 107 20220818154632
+49.148.247.114 9 25 305716 20220831013610
+144.137.3.188 56 68 375229 20220822052031
+20.39.252.145 2 2 214 20220817112150
+1.37.86.108 3 4 26044 20220830105145
+175.176.65.254 11 28 317127 20220807175028
+209.124.88.143 1 1 107 20220806221612
+49.148.28.243 29 59 653852 20220809065505
+49.145.129.152 13 15 98711 20220802015633
+1.146.29.248 13 29 585275 20220807234343
+35.225.168.102 4 4 7537 20220805021336
+93.159.230.89 5 5 7189 20220827133924
+90.156.169.12 1 1 107 20220811223057
+64.124.8.38 2 4 6001 20220810211809
+35.163.37.2 2 4 49731 20220810180020
+175.44.42.13 1 1 1097 20220807085050
+203.219.219.70 2 4 41131 20220829052522
+65.108.76.81 1 1 107 20220808201555
+23.229.113.138 7 7 4739 20220830001255
+64.124.8.27 1 1 1460 20220810104301
+194.233.164.30 14 14 1479 20220830161750
+49.145.134.5 24 27 157648 20220831034350
+51.142.136.197 1 1 107 20220814023409
+20.150.151.19 1 1 107 20220809201429
+165.22.255.221 76 78 8346 20220819063355
+52.114.14.71 1 4 5863 20220809053607
+106.69.81.153 10 26 307758 20220808054148
+49.145.132.12 9 11 93184 20220831062955
+159.65.24.22 2 2 4962 20220814023954
+79.104.53.14 1 1 1439 20220830164953
+110.42.222.33 1 1 107 20220810034415
+213.136.88.4 2 2 0 20220801000719
+203.89.29.189 5 5 384 20220806192841
+93.159.230.83 5 5 7184 20220831220033
+146.19.175.103 2 3 39783 20220815180148
+77.74.177.119 6 6 8627 20220827183840
+188.165.87.99 1 1 4020 20220831103955
+104.248.145.93 2 2 214 20220807115851
+20.38.47.222 1 1 4020 20220816052746
+103.18.53.105 11 29 352444 20220811024337
+64.124.8.46 1 1 1438 20220810060828
+188.166.184.239 2 2 214 20220804151638
+143.44.165.139 77 123 1066307 20220825222014
+165.22.104.66 82 84 8988 20220831155440
+93.159.230.88 4 4 5745 20220831210024
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20220801 67 77 1201120 7
+20220802 174 291 3482768 6
+20220803 101 192 3151455 8
+20220804 535 813 11523106 19
+20220805 69 94 1463005 10
+20220806 27 27 2377 4
+20220807 90 162 2618042 8
+20220808 154 214 1544883 9
+20220809 94 166 1543471 15
+20220810 227 378 7707524 22
+20220811 428 600 8560997 17
+20220812 91 96 132875 7
+20220813 82 84 8790 3
+20220814 86 134 951256 9
+20220815 99 178 1854932 10
+20220816 82 146 4033002 8
+20220817 165 260 3922358 13
+20220818 114 178 2042125 7
+20220819 169 256 1951053 11
+20220820 103 103 10870 2
+20220821 135 194 4792847 6
+20220822 140 219 2715907 6
+20220823 122 133 327968 5
+20220824 130 224 3697648 12
+20220825 75 103 683053 10
+20220826 120 143 557615 7
+20220827 35 55 370918 22
+20220828 38 64 377402 6
+20220829 49 80 644566 7
+20220830 501 735 15643045 20
+20220831 91 154 3036894 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 9
+5mn-15mn 19
+15mn-30mn 11
+30s-2mn 38
+2mn-5mn 21
+0s-30s 189
+30mn-1h 21
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 362
+/calendar/feed 575 5374735 4 90
+/leaveCapacity/checkcapacity/166 473 32746 2 33
+/login 272 334143 178 75
+/calendar/leaveType 267 31386 0 0
+/calendar/employee 262 121970 0 2
+/calendar/department 262 38661 10 0
+/home 253 1635908 43 1
+/fonts/bootstrap/glyphicons-halflings-regular.woff2 104 1874912 1 10
+/leaveCapacity/checkcapacity/116 101 7013 0 12
+/setNotificationRead 94 94 0 2
+/organisationUsers/128/edit 2 7707 0 0
+/s/33352e3230392e32312e313532/_/ 1 107 0 0
+/api/.env 14 1498 0 0
+/v2/_catalog 1 107 0 0
+//wp-includes/images/smilies/2index.php 1 107 0 0
+/organisationStructures 3 10958 0 0
+/aws.yml 14 1498 0 0
+/home/.env 14 1498 0 0
+//WPxdndcf7.php 1 107 0 0
+//wp-content/f0x.php 1 107 0 0
+//news/wp-includes/wlwmanifest.xml 8 704 0 0
+/organisationUsers/134/edit 2 7711 0 0
+/userRegisters/registerFromToken/mYUzalLKIjbo3W8GeUCk9MF2bDlwGchS 3 2531 1 1
+/olux.php 2 214 0 0
+//wp-content/plugins/apikey/nocap.php 1 107 0 0
+//wp.php 1 107 0 0
+/radio.php 2 214 0 0
+/leaveApplication/myLeaves 18 90350 0 0
+/organisationUsers/129/edit 5 19149 0 0
+/cgi-etc/ 1 107 0 0
+/organisationUsers 71 435008 0 0
+/xmlrpc.php 1 107 1 1
+/bc 1 0 0 0
+/admin/info.php 14 1498 0 0
+//tshop.php 1 107 0 0
+//wp-content/xleet.php 1 107 0 0
+/leaveApplications/1853/edit 1 2538 0 0
+/wp-signin.php 2 214 0 0
+//admin.php 1 107 0 0
+/wp-content/plugins/ubh/up.php 2 214 0 0
+/doc.php 2 214 0 0
+/account/signup 11 33933 3 5
+//wp-admin/maint/langar.php 1 107 0 0
+/admin/controller/extension/extension/alfacgiapi 2 214 0 0
+/config/config.json 14 1498 0 0
+/old 1 0 0 0
+/leaveTypes 2 3012 0 0
+/organisationStructures/79/edit 1 5715 0 0
+/wp-booking.php 2 214 0 0
+/style.php 2 214 0 0
+/organisationUsers/125/edit 2 7696 0 0
+/error.php 2 214 0 0
+//local.php 1 107 0 0
+//xleet.php 1 107 0 0
+/sites/default/files/alfacgiapi 2 214 0 0
+/main 1 0 0 0
+//wp-admin/images/xleet.php 1 107 0 0
+//website/wp-includes/wlwmanifest.xml 8 704 0 0
+/wp-login.php 10 1026 6 6
+/openHours 2 2622 0 0
+/.aws/credentials 14 1498 0 0
+//wp-includes/wp-class.php 1 107 0 0
+/login.action 1 107 0 0
+/local/.env 14 1498 0 0
+/wp-admin/style.php 2 214 0 0
+/wp-content/db-cache.php 2 214 0 0
+//wp-content/plugins/wp-diambar/includes/loadme.php 1 107 0 0
+//wp-includes/Text/Diff/content.php 1 107 0 0
+/wp-content/plugins/ubh/ 1 107 0 0
+//fw.php 1 107 1 0
+//wp-content/31cx4.php 1 107 0 0
+//ffAA531.php 1 107 0 0
+/wp-content/plugins/backup_index.php 2 214 0 0
+//templates/atomic/error.php 1 107 0 0
+/wp-includes/css/wp-config.php 2 214 0 0
+/wp-content/uploads/alfacgiapi 2 214 0 0
+//wp-plugins.php 1 107 0 0
+//1975.php 1 107 0 0
+//wp-admin/css/colors/coffee/x.php 1 107 0 0
+/staging/.env 14 1498 0 0
+/userRegisters/registerFromToken/ACvuBdMeuIs9qyXohV4zqRCz4tXqiQb7 1 1841 0 0
+/new 1 0 0 0
+//wp-content/plugins/ubh/con.php 1 107 0 0
+/leaveApplications/1858 1 4028 0 0
+/defau1t.php 2 214 0 0
+/leaveApplications/1868 1 4044 0 0
+/up.php 2 214 0 0
+/wp-content/export.php 2 214 0 0
+/bk 1 0 0 0
+/sickLeaves 1 1221 0 0
+//inbexw.php 1 107 0 0
+/leaveAccrualSetting/edit 31 36477 0 0
+/organisationUsers/135/edit 2 7711 0 0
+//test/wp-includes/wlwmanifest.xml 10 880 0 0
+/wp-content/ALFA_DATA 2 214 0 0
+/login/.env 14 1498 0 0
+/about 1 107 0 0
+//wp-includes/rest-api/search/2index.php 1 107 0 0
+//2021/wp-includes/wlwmanifest.xml 2 176 0 0
+/organisationUsers/140/edit 2 7708 0 0
+/wp-content/uploads/ 1 107 0 0
+/leaveApplications/1875 1 4040 0 0
+/organisationUsers/86/edit 3 11555 0 0
+//wordpress/wp-includes/wlwmanifest.xml 10 880 0 0
+/backup 1 0 0 0
+/media-admin.php 2 214 0 0
+//style.php 1 107 0 0
+/site.webmanifest 76 31950 4 3
+//defaul1.php 1 107 0 0
+/wp-content/uploads/ALFA_DATA 2 214 0 0
+/config/aws.yml 14 1498 0 0
+//wp-includes/images/media/about.php 1 107 0 0
+/wordpress/wp-login.php 4 384 0 0
+/leaveApplications/1854/edit 2 5076 0 0
+/shell.php 2 214 0 0
+/organisationStructures/79 1 5793 0 0
+/wordpress 1 0 1 0
+/wp-admin/cgialfa 2 214 0 0
+/system_log.php 2 214 0 0
+/organisationUsers/137/edit 2 7690 0 0
+//images/up.php 1 107 0 0
+/alfacgiapi 2 214 0 0
+/wp-content/themes/config.bak.php 2 214 0 0
+/wp-admin/maint/ 1 107 0 0
+/legion.php 2 214 0 0
+/password/reset 9 9590 2 3
+/about.php 2 214 0 0
+//wp-blog.php 1 107 0 0
+/dev/.env 14 1498 0 0
+/wp-content/plugins/ 1 107 0 0
+/wp-content/outcms.php 2 214 0 0
+//blog/wp-includes/wlwmanifest.xml 10 880 0 0
+//baindex.php 1 107 0 0
+//site/wp-includes/wlwmanifest.xml 10 880 0 0
+/admin/phpinfo 14 1498 0 0
+/wp-includes/images/ 1 107 0 0
+//wp-includes/Text/Diff/radio.php 1 107 0 0
+/organisationUser/editUser 25 105843 0 0
+//wp-admin/maint/xleet.php 1 107 0 0
+//modules/mod_araticlws/mod_araticlws.php 1 107 0 0
+/core/.env 14 1498 0 0
+/wp-includes/ 1 107 0 0
+/customHolidays 1 1233 0 0
+/xleet.php 2 214 0 0
+/x.php 2 214 0 0
+//wp-content/themes/twentyfive/include.php 1 107 0 0
+//ups.php 1 107 0 0
+//2019/wp-includes/wlwmanifest.xml 10 880 0 0
+/customizedFeeds 14 45686 0 0
+/wp-admin/css/ 3 321 2 2
+//qindex.php 1 107 0 0
+/wp-content/uploads/cgialfa 2 214 0 0
+/leaveApplications/1871 1 4015 0 0
+//wp-admin/includes/mar.php 1 107 0 0
+/wp-content/plugins/wpconfig.bak.php 2 214 0 0
+/wp_wrong_datlib.php 2 214 0 0
+//images/mod_config.php 1 107 0 0
+/z.php 2 214 0 0
+/leaveApplications/1860 1 4035 0 0
+//wordpress/wp-content/themes/twentyfive/include.php 1 107 0 0
+/wp-includes/wp-class.php 2 214 0 0
+/wp-load.php 4 428 2 0
+//wp-content/plugins/cakil/up.php 1 107 0 0
+/shells.php 2 214 0 2
+//wp-includes/images/wlw/content.php 1 107 0 0
+/organisationUsers/117/edit 2 7704 0 0
+/wp-plugins.php 2 214 0 0
+/userRegisters/registerFromToken/Ux26KXTfZ1hhY7DEualkneqNlmCs1Va7 1 1850 0 0
+/wp-includes/css/ 1 107 0 0
+/comments 7 4871 0 0
+//wp-admin/user/xleet.php 1 107 0 0
+/organisationUsers/109/edit 2 7741 0 0
+/leaveApplications/1870/edit 1 2477 0 0
+//radio.php 1 107 0 0
+/wp 1 0 0 0
+/wp-includes/alfacgiapi 2 214 0 0
+/s_ne.php 2 214 0 0
+/ecp/Current/exporttool/microsoft.exchange.ediscovery.exporttool.application 1 107 0 0
+/.env.backup 14 1498 0 0
+/organisationUsers/131/edit 2 7706 0 0
+/organisationUsers/141/edit 2 7706 0 0
+//wp-content/languages/themes/radio.php 1 107 0 0
+/leaveAccrualSettings 2 2508 0 0
+/ 80 7702 26 26
+/wp-content/plugins/apikey/ 1 107 0 1
+/server-status 1 107 0 0
+/leaveApplications/1859/edit 1 2311 0 0
+/organisationUsers/31/edit 3 13896 0 0
+/fonts/bootstrap/glyphicons-halflings-regular.woff 1 23424 0 0
+/.env.stage 14 1498 0 0
+/leaveApplication/manage 84 803846 3 0
+//content.php 1 107 0 0
+//modules/mod_ariimageslidersa/mod_ariimageslidersa.php 1 107 0 0
+/leaveCapacity/checkcapacity/207 3 244 0 1
+//wp-admin/alfa.php 1 107 0 0
+/blockDates 1 920 0 0
+/home/end-guide 10 10 0 0
+/organisationUsers/118/edit 2 7741 0 0
+/admin/controller/extension/extension/ALFA_DATA 2 214 0 0
+/api/search 1 107 0 0
+//wp-admin/css/xleet.php 1 107 0 0
+/password/reset/f420cb0348e15cd963ee0127e32b91a112a1a559011f36dadc7795c4f5e46655 1 981 0 0
+/_profiler/phpinfo 14 1498 0 0
+/wp-content/mu-plugins/db-safe-mode.php 2 214 0 0
+/register 6 8413 2 4
+//2018/wp-includes/wlwmanifest.xml 7 616 0 0
+/wp-content/languages/ 1 107 0 0
+/sites/default/files/ALFA_DATA 2 214 0 0
+//wp-admin/maint/wso.php 1 107 0 0
+//varb.php 1 107 0 0
+/wp-includes/ALFA_DATA 2 214 0 0
+//old-index.php 1 107 0 0
+/organisationUsers/95/edit 2 7721 0 0
+/organisationUsers/136/edit 2 7699 0 0
+/leaveApplications/1847 1 3905 0 0
+//sito/wp-includes/wlwmanifest.xml 7 616 0 4
+//wp-content/plugins/zaen/includes/loadme.php 1 107 0 0
+/userRegisters/registerFromToken/HjDDZpHoYDEXpoGE4hHFAOhP2M5xxGvC 1 1839 1 0
+/cgialfa 2 214 0 0
+/.env.bak 14 1498 7 0
+/organisationUsers/114/edit 2 7736 0 0
+/export.php 2 214 0 0
+/organisationUsers/116/edit 2 7737 0 0
+/beence.php 2 214 0 0
+/phpinfo.php 14 1498 0 0
+/upload.php 2 214 0 0
+/leaveApplications/1876/edit 1 2312 0 0
+//alfa.php 1 107 0 0
+/wp-admin/ALFA_DATA 2 214 0 0
+/organisationUser/editEmail 19 60908 0 0
+//vabba.php 1 107 0 0
+//1index.php 1 107 0 0
+/wp-admin/network/ 1 107 0 0
+//lufix.php 1 107 0 0
+/.env.php 14 1498 0 0
+/moduless.php 2 214 0 0
+/wp-admin/alfacgiapi 2 214 0 0
+//cms/wp-includes/wlwmanifest.xml 10 880 0 3
+//wp-includes/wlwmanifest.xml 8 704 1 0
+/app/.env 14 1498 0 0
+/leaveApplications/1861 1 4031 0 0
+//wp2/wp-includes/wlwmanifest.xml 8 704 0 0
+//xl33t.php 1 107 0 0
+/leaveApplications 40 106002 0 2
+/organisationUsers/115/edit 2 7733 0 0
+/organisationUsers/142/edit 2 7705 0 0
+/telescope/requests 1 107 0 0
+/admin/phpinfo.php 14 1498 0 0
+/xero/connect 2 2 0 0
+/wp-backup-sql-302.php 2 214 0 0
+/gank.php.PhP 2 214 0 0
+/organisationUsers/107/edit 2 7734 0 0
+//wp-includes/xleet.php 1 107 0 0
+/ALFA_DATA 2 214 0 0
+//wp-admin/includes/xleet.php 1 107 0 0
+/1.php 2 214 0 0
+//wp-admin/includes/media-site.php 1 107 0 0
+/leaveCapacity/checkcapacity/204 33 2415 0 1
+/ups.php 2 214 0 0
+/test.php 2 214 0 0
+//shell20211028.php 1 107 0 0
+/leaveApplications/1857/edit 1 2319 0 0
+/a.php 2 214 0 0
+//wp/wp-includes/wlwmanifest.xml 10 880 0 0
+/archives.php 2 214 0 0
+//autoload_classmap.php 1 107 0 0
+//new-index.php 1 107 0 0
+//xmlrpc.php 10 880 0 0
+//wp-vatva.php 1 107 0 0
+//f0x.php 1 107 0 0
+/wp.php 2 214 0 0
+/.env.save 14 1498 0 0
+//feed/ 2 176 2 0
+//qws.php 1 107 0 0
+/defau11.php 2 214 0 0
+/organisationUsers/124/edit 2 7720 0 0
+/stag/.env 14 1498 0 0
+/s_e.php 2 214 0 0
+/core/app/.env 14 1498 0 0
+/wso.php 2 214 0 0
+/admin/controller/extension/extension/cgialfa 2 214 0 0
+/organisationUsers/144/edit 2 7706 0 0
+//wp-admin/meta/xleet.php 1 107 0 0
+/organisationUsers/82/edit 3 13025 0 0
+//2index.php 1 107 0 0
+//wp-includes/images/media/new-index.php 1 107 0 0
+/leaveApplications/1874 1 4031 0 0
+//local1.php 1 107 0 0
+//wp1/wp-includes/wlwmanifest.xml 10 880 0 0
+/1index.php 2 214 0 0
+/organisationUsers/121/edit 2 7695 0 0
+/.DS_Store 1 107 0 0
+/organisationUsers/91/edit 2 7728 0 0
+/wp-includes/images/css.php 2 214 0 0
+/organisationUsers/143/edit 2 7706 0 0
+/wp-content/ 2 214 1 1
+//shop/wp-includes/wlwmanifest.xml 10 880 0 0
+/xero 1 754 0 0
+//media/wp-includes/wlwmanifest.xml 7 616 0 0
+/organisationUsers/126/edit 2 7699 0 0
+/userRegisters/create 9 40486 0 0
+/config/.env 14 1498 0 0
+/wp-includes/cgialfa 2 214 0 0
+/templates/beez3/cgialfa 2 214 0 0
+/data/.env 14 1498 0 0
+//wp-includes/f0x.php 1 107 0 0
+//wp-2019.php 1 107 0 0
+//wp-content/plugins/ubh/up.php/.well-known/ 1 107 0 0
+/organisationStructures/70/edit 1 5694 0 0
+/apps/.env 14 1498 0 0
+/leaveApplications/1862/edit 1 2317 0 0
+/wp-includes/wp-atom.php 2 214 0 0
+//wp-admin/network/xleet.php 1 107 0 0
+/leaveApplications/1867 1 4023 0 0
+/organisationUsers/89/edit 4 15460 0 0
+/blog/wp-login.php 4 384 0 1
+//wp-content/alfa.php 1 107 0 0
+/public/.env 14 1498 0 0
+/wp-includes/css/css.php 2 214 0 0
+//403.php 1 107 0 0
+/leaveApplications/1862 1 4017 0 0
+//xleet-shell.php 1 107 0 0
+/templates/beez3/alfacgiapi 2 214 0 0
+//wp-content/themes/twentytwenty/content.php 1 107 0 0
+/conf/.env 14 1498 0 0
+/leaveApplications/1870 1 4011 0 0
+//web/wp-includes/wlwmanifest.xml 10 880 0 0
+/production/.env 14 1498 0 0
+/config.php 2 214 0 0
+//wp-admin/admin-post.php 1 107 1 0
+//wp-content/plugins/instabuilder2/cache/up.php 1 107 0 1
+/leaveCapacity/checkcapacity/167 39 1823 0 7
+/wp-content/cgialfa 2 214 0 0
+/templates/beez3/index.php 2 214 0 0
+/info.php 15 1605 0 0
+/wp/wp-login.php 3 288 0 3
+/upload/image/ 1 107 0 0
+/.env.prod 14 1498 0 0
+//cgi-etc/quti.php 1 107 0 0
+//test.php 1 26138 1 1
+/leaveApplications/1855/edit 1 2722 0 0
+/wp-content/alfacgiapi 2 214 0 0
+//2020/wp-includes/wlwmanifest.xml 3 264 0 0
+/sites/default/files/cgialfa 2 214 0 0
+/.env.local 14 1498 0 0
+/organisationUsers/132/edit 2 7690 0 0
+//wp-content/themes/zakra/image.php 1 107 0 0
+/config.json 15 1605 0 1
+/organisationStructures/70 1 5770 0 0
+/leaveApplications/1854 1 4229 0 0
+/member/.env 14 1498 0 0
+/templates/beez3/ALFA_DATA 2 214 0 0
+/alfa.php 2 214 0 0
+//alwso.php 1 107 0 0
+/config.bak.php 2 214 0 0
+/index.php 2 214 0 0
+/google885c6c08c0429c4a.html 1 60 1 1
+//wp-content/export.php 1 107 0 0
+/leaveApplications/create 44 103380 0 2
+/debug/default/view 1 107 1 0
+/phpinfo 14 1498 0 0
+//wp-signin.php 1 107 0 0
+END_SIDER

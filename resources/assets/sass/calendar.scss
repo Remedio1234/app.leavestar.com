@@ -1,0 +1,236 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/05/2017, 10:36:02 AM
+    Author     : michaelesteves
+*/
+.style_weekend{
+    background-color: #ddd;
+    border-radius: 0!important;
+}
+.style_holiday{
+    background-color: #ddd;
+    border-radius: 0!important;
+}
+.style_block{
+    background-color: lighten($brand-warning, 40%);
+    border-radius: 0!important;
+}
+
+#ruleWarnings{
+
+    ul{
+        display: block;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+
+        li{
+            display: block;
+            padding: 8px;
+        }
+
+        li.success{
+            color: darken($brand-success, 2%);
+        }
+        li.failed{
+            color: darken($brand-danger, 2%);
+        }
+
+    }
+
+}
+
+.daterangepicker td.in-range {
+    background: #357ebd;
+    color: white;
+}
+
+
+.calendar-wrap{
+    margin-top: 30px;
+    /*border-bottom: 1px solid #ddd;*/
+}
+
+.fc-toolbar{
+    color: $brand-primary;
+    margin-bottom: 20px;
+
+    h2{
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+}
+
+.fc-button{
+    text-shadow: none;
+    color: $brand-primary;
+    background-color: #fff;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.6;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0;
+    padding: 6px 18px;
+    text-transform: uppercase;
+    box-shadow: none;
+    border-radius: 0 !important;
+
+    &:hover{
+        background-color: #e6e6e6;
+    }
+}
+
+.fc-button-group .fc-button{
+
+    border: 1px solid $brand-primary;
+
+    &.fc-state-active{
+        background: $brand-primary;
+        color: white;
+        &:hover{
+            background: darken($brand-primary, 10%);
+        }
+    }
+}
+
+thead .fc-widget-header{
+    color: lighten($brand-primary, 5%);
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: 300;
+    border-top-width: 0 !important;
+    border-left-width: 0 !important;
+    border-right-width: 0 !important;
+    border-bottom: 1px solid $brand-primary !important;
+}
+
+td.fc-day{
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+}
+
+.fc-month-view .fc-body > tr > .fc-widget-content{
+    border: none;
+}
+
+div.fc-bg{
+
+}
+
+.fc-day-number{
+    font-size: 1.3em;
+    color: #8e8e8e;
+    font-weight: 300;
+    padding: 5px !important;
+}
+
+.fc-other-month{
+    opacity: 0.5;
+    background: #eee;
+}
+
+.fc-highlight{
+    background: lighten($brand-primary, 50%);
+}
+
+.fc-today{
+    color: $brand-primary;
+    font-weight: bold;
+}
+
+.fc-scroller{
+    /*min-height: 350px !important;*/
+    min-height: auto !important;
+    height: auto !important;
+}
+
+.calendar-filter{
+    display: none;
+    padding: 20px 0;
+}
+
+@media (max-width: $breakpoint-md){
+    .calendar-wrap{
+        font-size: 0.9em;
+    }
+    .fc-scroller{
+        /*min-height: 310px !important;*/
+    }
+}
+
+@media (max-width: $breakpoint-sm){
+    thead .fc-widget-header{
+        font-size: 1em;
+    }
+
+    .fc-day-number{
+        font-size: 1em;
+        color: #666;
+        font-weight: 300;
+    }
+
+    .fc .fc-toolbar>*>*{
+        float: none;
+        margin: 0;
+    }
+
+    .fc-left, .fc-center, .fc-right{
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .fc-toolbar{
+        flex-direction: column;
+        display: flex;
+
+        .fc-left{
+            order: 2;
+            flex: 1;
+        }
+
+        .fc-center{
+            order: 1;
+            flex: 1;
+
+            h2{
+                display: inline;
+            }
+
+        }
+
+        .fc-right{
+            order: 2;
+            flex: 1;
+        }
+    }
+
+    .fc-button-group{
+        display: flex;
+
+        .fc-button{
+            flex: 1;
+        }
+    }
+
+    .fc-time-grid-container{
+        height: auto !important;
+    }
+}

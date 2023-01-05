@@ -1,0 +1,17 @@
+//purple
+// Brands
+$brand-primary: #9933ff;
+$brand-info: #8eb4cb;
+$brand-success: #15b75e;
+$brand-warning: #ed9200; //$brand-danger:  #e8103f;
+$brand-danger: #ca1629;
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,400,700); 
+@import "variables-common"; 
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap"; // Nest Tree Related Css
+@import "layout"; 
+@import "calendar"; 
+@import "org-tree"; 
+@import "buttons"; 
+@import "alerts"; 
+@import "forms"; 

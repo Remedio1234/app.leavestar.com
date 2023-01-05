@@ -1,0 +1,621 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202105 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.app.leavestar.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2000                
+POS_TIME 2677                
+POS_VISITOR 10750               
+POS_DAY 14169               
+POS_DOMAIN 3488                
+POS_LOGIN 3897                
+POS_ROBOT 4052                
+POS_WORMS 4965                
+POS_EMAILSENDER 5096                
+POS_EMAILRECEIVER 5239                
+POS_SESSION 14965               
+POS_SIDER 15177               
+POS_FILETYPES 5374                
+POS_DOWNLOADS 5643                
+POS_OS 5691                
+POS_BROWSER 5885                
+POS_SCREENSIZE 6653                
+POS_UNKNOWNREFERER 6727                
+POS_UNKNOWNREFERERBROWSER 7024                
+POS_ORIGIN 7143                
+POS_SEREFERRALS 7287                
+POS_PAGEREFS 7494                
+POS_SEARCHWORDS 7787                
+POS_KEYWORDS 7939                
+POS_MISC 2340                
+POS_ERRORS 7998                
+POS_CLUSTER 3753                
+POS_SIDER_404 8197                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210601013826 5898 1853318 18948897397231
+FirstTime 0
+LastTime 20210531235946
+LastUpdate 20210601045200 5898 5639 254 4 0
+TotalVisits 193                 
+TotalUnique 82                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 84                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 24 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 194 299 2853540 97 102 173998
+1 172 303 2784500 130 135 212725
+2 469 597 3177197 78 87 84375
+3 190 327 3554567 163 187 288709
+4 93 202 2159254 69 81 330234
+5 170 276 3367854 100 114 268014
+6 189 257 1830370 55 58 83934
+7 42 83 846921 55 62 113505
+8 27 56 671145 42 54 222606
+9 36 54 566110 80 89 209075
+10 8 9 40061 45 56 115845
+11 37 58 398749 60 74 145121
+12 2 2 2870 34 55 252049
+13 2 5 73798 11 15 17768
+14 9 9 16237 31 43 195968
+15 133 149 310110 43 85 386514
+16 0 0 0 39 52 180704
+17 8 8 18004 66 75 167660
+18 0 0 0 50 73 284630
+19 1 1 1436 60 76 220328
+20 0 2 2278 29 36 128383
+21 142 180 1086689 61 67 49868
+22 228 339 4175648 73 85 131105
+23 404 721 7663429 178 200 386713
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+ph 1324 2058 17326225
+au 1000 1590 16979636
+us 89 100 298047
+ie 43 80 803210
+dz 42 42 5823
+unknown 26 30 126783
+ca 20 20 1760
+nl 3 3 6408
+cn 2 4 4466
+hn 2 4 41091
+de 1 1 87
+gb 2 2 2880
+sg 2 3 4351
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 21
+infobot 317 1442911 20210531201823 106
+bingbot/ 105 105636 20210530032054 54
+Googlebot/ 53 144771 20210531105532 12
+bingpreview 27 802555 20210529150800 0
+python 18 20622 20210528093854 0
+SemrushBot/ 13 13183 20210529192239 7
+BLEXBot/ 10 10675 20210514112638 4
+Mail\.RU_Bot/ 10 6303 20210519194656 5
+crawl 9 11299 20210525030752 1
+AhrefsBot/ 8 8763 20210528213241 5
+Googlebot\-Image/ 1 1110 20210511030012 0
+CCBot/ 3 4030 20210514092307 1
+(firefox/)([0-9]\.|[0-1][0]\.) 4 16100 20210513170108 0
+Python\-urllib/ 1 24 20210516132715 1
+DotBot/ 2 14126 20210521072937 0
+baidu 8 99472 20210526093921 0
+Sogou[\x20]web[\x20]spider/ 1 55 20210526004436 1
+unknown 3 165 20210531170709 3
+aiHitBot/ 6 33048 20210526103732 1
+YandexBot/ 3 2897 20210514032850 1
+MJ12bot/ 4 313 20210510074008 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 545 7935567 0 0
+png 78 199853 0 0
+env 41 4387 0 0
+woff2 66 1189848 0 0
+php 3 264 0 0
+html 7 588 0 0
+xml 51 4488 0 0
+js 522 17036794 0 0
+jpeg 20 3575840 0 0
+Unknown 2388 5488735 0 0
+svg 216 164403 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+macosx 1 1
+linuxandroid 305 241
+macosx11 15 15
+ios_iphone 165 76
+macosx10 1 1
+Unknown 11 11
+win10 3407 2185
+linux 23 18
+win7 9 8
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 33
+firefox57.0 1 1
+safari13.1.2 8 4
+safari11.0 1 1
+firefox52.0 12 12
+chrome88.0.4324.152 25 9
+chrome39.0.2171.95 1 1
+chrome90.0.4430.210 158 138
+chrome87.0.4280.141 21 14
+firefox13.0.1 1 1
+chrome42.0.2311.90 4 4
+chrome90.0.4430.212 1572 954
+chrome50.0.2661.102 3 3
+chrome76.0.3809.71 12 6
+safari14.0.3 156 71
+Unknown 2 2
+chrome90.0.4430.91 73 50
+chrome90.0.4430.93 1340 940
+chrome90.0.4430.85 94 31
+chrome88.0.4324.150 1 1
+chrome91.0.4472.77 274 165
+firefox77.0 1 1
+chrome60.0.3112.107 44 44
+chrome63.0.3239.132 2 2
+chrome78.0.3904.108 62 60
+chrome85.0.4183.102 5 2
+mozilla 9 9
+netscape5.0 2 1
+firefox88.0 41 19
+firefox80.0 1 1
+chrome89.0.4389.90 4 2
+chrome84.0.4147.105 1 1
+opera38.0.2220.41 4 4
+chrome73.0.3683.90 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20210507233150
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20210526062815
+PostmanRuntime/7.26.8 20210523100510
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+PostmanRuntime/7.26.8 20210523100510
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 241 245
+From1 0 0
+From2 15 15
+From3 86 86
+From4 2214 3591
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+www_google_com_hk 4 4
+www_google_com_au 2 2
+www_google_com 9 9
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+https://leavestar.com 80 80
+https://leavestar.com 3 3
+http://rcg.fineblog.top 1 1
+http://tcko.myra.top 1 1
+https://login.microsoftonline.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 10
+503 2 178980
+400 3 224799
+401 3 84
+302 717 269996
+499 1 0
+444 10 0
+500 83 1016551
+405 4 49896
+404 139 97713
+301 369 73754
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 74
+/sitemap.xml 3 -
+/api/.env 1 -
+/temp 1 https://www.app.leavestar.com/temp/
+/.env.example 1 -
+/.git/HEAD 1 -
+/vendor/.env 1 -
+/web 1 https://www.app.leavestar.com/web/
+/2019 1 https://www.app.leavestar.com/2019/
+/laravel/.env 1 -
+/wp2 1 https://www.app.leavestar.com/wp2/
+/GponForm/diag_FORM 4 -
+/docs/.env 1 -
+/2020 1 https://www.app.leavestar.com/2020/
+/wordpress 1 https://www.app.leavestar.com/wordpress/
+/blog 1 https://www.app.leavestar.com/blog/
+/storage/.env 1 -
+/adminer.php 1 -
+/redmine/.env 1 -
+/wp-content 2 -
+/gists/cache 1 -
+/v1 1 https://www.app.leavestar.com/v1/
+/magmi/web/magmi.php 1 -
+/blogs/.env 1 -
+/apps/.env 1 -
+/old 1 https://www.app.leavestar.com/old/
+/bak 1 https://www.app.leavestar.com/bak/
+/tmp 1 https://www.app.leavestar.com/tmp/
+/main 1 https://www.app.leavestar.com/main/
+/account/check/iaee7svQSWwEIBPyu4jteigVNi7A2nOfYftcTgDgaYfObHo3ya3GXceTOyVH 2 -
+/public/.env 1 -
+/core/.env 1 -
+/site/.env 1 -
+/old-site 1 https://www.app.leavestar.com/old-site/
+/backend/.env 1 -
+/cms 1 https://www.app.leavestar.com/cms/
+/wp-content/db-cache.php 6 -
+/old-wp 1 https://www.app.leavestar.com/old-wp/
+/database/.env 1 -
+/.env.dev 1 -
+/js/webforms/upload/index.php 1 -
+/google8c81df76e1d17e95.html 1 -
+/.env.php 1 -
+/admin/.env 1 -
+/.env 12 -
+/app/.env 1 -
+/weeklNotifications/send/gbkbnaw4o8dbnos744GGJHBOODNE23R9U975CGhdfvHAVooo3 5 -
+/lib/.env 1 -
+/sites/.env 1 -
+/__tests__/test-become/.env 1 -
+/new 1 https://www.app.leavestar.com/new/
+/wp1 1 https://www.app.leavestar.com/wp1/
+/wp-content/wp-1ogin_bak.php 2 -
+/old-index.php 3 -
+/download/.env 1 -
+/uploads/.env 1 -
+/test 1 https://www.app.leavestar.com/test/
+/web/.env 1 -
+/bk 1 https://www.app.leavestar.com/bk/
+/2018 1 https://www.app.leavestar.com/2018/
+//vendor/phpunit/phpunit/phpunit.xsd 3 -
+/shared/.env 1 -
+/menu.html 4 -
+/main/.env 1 -
+/install 1 https://www.app.leavestar.com/install/
+/new-site 1 https://www.app.leavestar.com/new-site/
+/v2 1 https://www.app.leavestar.com/v2/
+/blog/.env 1 -
+/wp 1 https://www.app.leavestar.com/wp/
+/demo 1 https://www.app.leavestar.com/demo/
+/client/.env 1 -
+/dev 1 https://www.app.leavestar.com/dev/
+/site 1 https://www.app.leavestar.com/site/
+/leaveApplicatio/crudCheck 31 -
+/backup 1 https://www.app.leavestar.com/backup/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 84
+49.145.33.237 348 565 5435597 20210513064557
+220.233.58.194 342 412 1763376 20210531233122
+103.17.253.149 271 429 3764930 20210528032511
+49.145.32.109 181 281 2503620 20210531225153
+120.28.227.215 138 156 344753 20210518000122
+49.145.35.121 132 218 2075926 20210530232504
+49.145.38.55 103 149 1133779 20210518220940
+49.145.43.23 102 162 1243623 20210513032953
+149.167.137.31 91 209 5800368 20210531005436
+49.145.39.78 70 116 926979 20210518230623
+42.236.10.106 0 1 802 
+175.44.42.226 1 1 1092 20210518004605
+54.169.113.148 1 1 1436 20210516192312
+45.133.4.38 26 30 126783 20210520005919
+205.169.39.8 2 4 41096 20210508004007
+1.132.17.237 4 6 226455 20210506092718
+149.167.136.211 20 58 671434 20210525011103
+54.147.59.184 20 20 1760 20210523010710
+104.218.61.8 20 20 1760 20210501114751
+41.96.153.43 33 33 3531 20210508094130
+49.145.166.56 67 93 671056 20210509223729
+35.233.23.226 4 4 7568 20210531170735
+54.221.27.173 1 1 1438 20210508104316
+172.193.64.193 48 57 307060 20210530000608
+138.219.74.131 2 4 41091 20210509073956
+58.69.228.194 6 10 57049 20210511053347
+18.184.114.154 1 1 87 20210507233150
+34.221.255.206 1 1 87 20210507233150
+65.154.226.165 2 4 41095 20210507233315
+54.189.22.122 1 1 87 20210507233143
+41.96.4.65 8 8 856 20210511010555
+49.145.160.223 19 22 126025 20210505230047
+180.190.195.31 24 42 371460 20210505000522
+34.77.146.216 4 4 7572 20210516143112
+120.28.243.242 15 31 321043 20210531230822
+35.238.243.9 4 4 7545 20210514080608
+120.153.100.19 15 31 350189 20210523215518
+86.45.149.222 43 80 803210 20210531235946
+64.137.33.20 2 4 41094 20210509073956
+107.150.63.174 1 1 1441 20210519122058
+1.132.25.233 7 10 256700 20210527033251
+18.191.233.107 2 5 73798 20210516132718
+220.235.176.205 11 12 49304 20210505044210
+120.28.231.205 13 16 128339 20210519222303
+65.154.226.170 2 4 41093 20210508001117
+203.87.73.56 32 35 145174 20210506060643
+175.44.42.208 1 1 1096 20210504142705
+107.150.46.52 1 1 1439 20210509074013
+167.172.151.176 1 1 1438 20210523100510
+107.150.59.246 1 1 1437 20210506152118
+49.145.67.86 19 37 356386 20210503065255
+192.198.127.27 2 2 5466 20210506172834
+144.134.36.116 14 32 369352 20210531234159
+18.116.86.117 2 2 174 20210507233149
+34.219.166.138 1 1 1437 20210520015045
+49.145.39.95 13 26 348246 20210519233155
+185.200.246.111 1 1 3528 20210516172536
+103.4.60.121 39 72 643009 20210518013848
+144.134.171.160 11 30 354149 20210517110816
+52.114.14.71 1 2 2915 20210506235542
+42.236.10.117 0 1 1476 
+107.150.52.195 1 1 1436 20210511210119
+35.233.88.231 4 4 7569 20210501145510
+124.169.60.93 21 38 361077 20210503045719
+124.191.205.224 11 27 324124 20210517080723
+74.125.216.7 1 1 60 20210526062815
+203.118.245.36 2 4 41133 20210511031412
+3.122.178.200 1 1 87 20210507233143
+34.71.20.225 3 3 4285 20210526035019
+64.78.149.164 2 2 174 20210507233149
+49.145.161.173 7 8 48740 20210512222517
+156.146.56.105 20 20 1760 20210523024457
+35.177.119.56 1 1 1442 20210516172518
+101.190.18.84 9 37 527934 20210502233612
+1.123.160.233 51 90 839667 20210531230437
+49.145.174.97 3 6 43702 20210507042451
+49.145.37.45 22 26 120198 20210520005910
+41.96.31.27 1 1 1436 20210512012800
+180.190.222.1 28 61 652091 20210510012635
+167.99.247.64 1 1 3529 20210523100509
+49.147.193.88 12 29 376480 20210510000054
+18.144.4.197 3 3 3520 20210506232819
+1.132.18.223 3 5 225334 20210522002702
+185.53.90.21 2 2 2880 20210525100434
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20210501 24 24 9329 2
+20210502 41 91 995098 6
+20210503 158 266 2487214 12
+20210504 15 17 77072 3
+20210505 100 157 1288446 10
+20210506 76 141 1778706 10
+20210507 431 536 2313206 14
+20210508 38 42 87158 5
+20210509 47 84 895628 7
+20210510 35 65 721226 5
+20210511 150 237 1984147 9
+20210512 29 37 197609 4
+20210513 122 172 1282788 4
+20210514 67 116 1804375 5
+20210516 191 223 735123 9
+20210517 121 221 2954881 10
+20210518 78 120 884319 6
+20210519 64 100 940014 7
+20210520 84 115 1491288 7
+20210521 45 59 512857 3
+20210522 3 5 225334 1
+20210523 121 206 2214322 10
+20210524 83 137 1207317 5
+20210525 63 126 1375783 9
+20210526 29 34 177957 5
+20210527 71 141 1933159 5
+20210528 107 188 1955370 6
+20210530 56 79 800779 5
+20210531 107 198 2270262 9
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 4
+5mn-15mn 16
+0s-30s 106
+2mn-5mn 19
+15mn-30mn 10
+30s-2mn 28
+30mn-1h 10
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 101
+/setNotificationRead 402 402 0 2
+/calendar/feed 368 3062840 1 87
+/leaveCapacity/checkcapacity/166 241 17673 1 12
+/login 183 210714 128 33
+/calendar/employee 176 53460 0 0
+/calendar/department 176 26048 1 0
+/calendar/leaveType 176 21902 0 0
+/home 174 916394 41 1
+/leaveCapacity/checkcapacity/116 74 4091 0 14
+/fonts/bootstrap/glyphicons-halflings-regular.woff2 66 1189848 0 6
+/organisationUsers/124/edit 2 7719 0 0
+/ 6 528 3 0
+/api/.env 3 321 0 0
+/leaveApplications/1456 1 4019 0 0
+/userRegisters/registerFromToken/myBqCWa49oSl3Eni1r4egAaoaBdV06aY 1 1847 0 0
+/site.webmanifest 47 20022 0 2
+/vendor/.env 4 428 0 1
+/laravel/.env 3 321 0 0
+/leaveApplication/manage 61 467993 0 0
+//wp1/wp-includes/wlwmanifest.xml 3 264 0 0
+//news/wp-includes/wlwmanifest.xml 3 264 0 0
+/leaveApplications/1466 1 4037 0 0
+/leaveCapacity/checkcapacity/207 6 455 0 3
+/leaveApplication/myLeaves 11 53442 0 0
+/organisationUsers 25 142939 0 0
+/wp-content/.env 1 107 0 0
+/home/end-guide 3 3 0 0
+/well-known/.env 1 107 0 0
+/leaveApplications/1458 2 8072 0 0
+/organisationUsers/118/edit 2 7741 0 0
+//shop/wp-includes/wlwmanifest.xml 3 264 0 0
+//media/wp-includes/wlwmanifest.xml 3 264 0 0
+/organisationUsers/126/edit 1 3809 0 0
+/account/signup 9 27560 5 4
+/.well-known/acme-challenge/bUmFolVpnax4bT-8llJDXZJUBg7eJDLZ4u2SKdGtzTQ 4 348 2 4
+/password/reset 6 6425 0 3
+/userRegisters/create 2 8438 0 0
+/leaveApplications/1465/edit 1 2502 0 0
+/register 6 8055 0 2
+/leaveApplications/1471 1 4038 0 0
+/leaveApplications/1455 1 4035 0 0
+//2018/wp-includes/wlwmanifest.xml 3 264 0 0
+/organisationUsers/110/edit 2 7654 0 0
+/.well-known/acme-challenge/o5OIXgsRLsoqsJbQWftYtTCEQco_G6SwD9eBAv00oc8 4 348 4 2
+//blog/wp-includes/wlwmanifest.xml 3 264 0 0
+/organisationUsers/95/edit 4 15441 0 0
+//site/wp-includes/wlwmanifest.xml 3 264 0 0
+/organisationUsers/125/edit 3 11604 0 0
+/organisationUsers/89/edit 4 15468 0 0
+/www-data/.env 1 107 0 0
+//sito/wp-includes/wlwmanifest.xml 3 264 0 3
+/organisationUser/editUser 6 25540 0 0
+/userRegisters/registerFromToken/I6qPPbaAk2zkuPcYqmcQUJl6eacOxBCR 2 3694 0 0
+/system/.env 2 214 0 0
+//website/wp-includes/wlwmanifest.xml 3 264 0 0
+/public/.env 2 214 0 0
+/organisationUsers/114/edit 2 7737 0 0
+/organisationUsers/116/edit 2 7737 0 0
+/weeklyNotifications/manage 1 3818 0 0
+/leaveApplications/1452 2 8067 1 0
+/organisationUser/editEmail 3 9656 0 0
+/webroot_path/.env 1 107 0 0
+//2019/wp-includes/wlwmanifest.xml 3 264 0 0
+/www/.env 1 107 0 0
+//web/wp-includes/wlwmanifest.xml 3 264 0 0
+/customizedFeeds/create 1 3336 0 0
+/customizedFeeds 1 3224 0 0
+/leaveApplications/1461 1 4032 0 0
+/leaveApplications/1451 1 4033 0 0
+/admin/.env 2 214 0 0
+//wp-includes/wlwmanifest.xml 3 264 0 0
+//cms/wp-includes/wlwmanifest.xml 3 264 0 0
+/.env 3 321 3 0
+//wp2/wp-includes/wlwmanifest.xml 3 264 0 0
+/sites/.env 3 321 0 1
+/leaveCapacity/checkcapacity/167 23 1034 0 2
+/leaveApplications 36 90266 2 2
+/organisationUsers/119/edit 3 11573 0 0
+/shop/.env 3 321 0 1
+/whturk/.env 1 107 0 0
+/organisationUsers/117/edit 2 7709 0 0
+/web/.env 1 107 0 0
+/leaveCapacity/checkcapacity/204 50 2586 0 3
+/leaveApplications/1464 1 4038 0 0
+/organisationUsers/123/edit 2 7735 0 0
+/leaveAccrualSetting/edit 15 17671 0 0
+//wp/wp-includes/wlwmanifest.xml 3 264 0 0
+/webui/.env 1 107 0 0
+/comments 11 7939 0 0
+//test/wp-includes/wlwmanifest.xml 3 264 0 0
+/organisationUsers/109/edit 4 15481 0 0
+/blog/.env 2 214 0 0
+/videos/.env 1 107 0 0
+/test/.env 3 321 0 0
+//xmlrpc.php 3 264 0 0
+/google885c6c08c0429c4a.html 1 60 1 1
+/webstatic/.env 1 107 0 0
+/websocket/.env 1 107 0 0
+/leaveApplications/create 38 90272 0 4
+/leaveApplications/1468 1 4019 0 0
+//wordpress/wp-includes/wlwmanifest.xml 3 264 0 0
+END_SIDER

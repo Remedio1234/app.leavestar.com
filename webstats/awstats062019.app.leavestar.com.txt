@@ -1,0 +1,515 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201906 will be lost/reset.
+# Last config file used to build this data file was /home/leavesta/tmp/awstats/awstats.app.leavestar.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2014                
+POS_TIME 2683                
+POS_VISITOR 8864                
+POS_DAY 11527               
+POS_DOMAIN 3530                
+POS_LOGIN 3876                
+POS_ROBOT 4031                
+POS_WORMS 4595                
+POS_EMAILSENDER 4726                
+POS_EMAILRECEIVER 4869                
+POS_SESSION 12348               
+POS_SIDER 12559               
+POS_FILETYPES 5004                
+POS_DOWNLOADS 5263                
+POS_OS 5311                
+POS_BROWSER 5504                
+POS_SCREENSIZE 6200                
+POS_UNKNOWNREFERER 6274                
+POS_UNKNOWNREFERERBROWSER 6601                
+POS_ORIGIN 6721                
+POS_SEREFERRALS 6863                
+POS_PAGEREFS 7029                
+POS_SEARCHWORDS 7232                
+POS_KEYWORDS 7384                
+POS_MISC 2346                
+POS_ERRORS 7443                
+POS_CLUSTER 3732                
+POS_SIDER_404 7607                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20190701000001 364 94824 6928480854791
+FirstTime 0
+LastTime 20190630230313
+LastUpdate 20190701075116 364 0 363 0 0
+TotalVisits 250                 
+TotalUnique 63                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 63                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+JavaEnabled 0 0 0
+PDFSupport 0 0 0
+DirectorSupport 0 0 0
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 52 0
+TotalMisc 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 184 351 7178813 104 126 447549
+1 223 371 9464479 95 108 644792
+2 100 123 4804510 43 57 295916
+3 81 129 4474260 34 40 227139
+4 32 66 1243155 32 50 116746
+5 120 198 4527743 50 56 47001
+6 86 120 2908856 72 82 107425
+7 1 1 4007 17 32 243793
+8 18 35 650217 42 61 445950
+9 114 149 2854556 60 72 333251
+10 4 6 51973 35 43 164929
+11 0 0 0 31 47 503476
+12 0 0 0 27 40 101467
+13 0 0 0 23 31 72942
+14 63 79 2299598 43 58 185458
+15 69 83 2265486 56 71 132133
+16 265 417 10983741 110 125 118271
+17 333 530 15582757 126 139 154629
+18 540 802 20752255 196 208 381413
+19 525 767 21670927 182 206 406297
+20 258 381 9337995 101 115 183880
+21 133 224 5521442 41 48 161794
+22 109 150 3819478 56 61 47962
+23 246 308 6240565 101 122 560496
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+au 1784 2586 65392586
+hk 1180 1780 45368099
+ph 442 744 22777654
+us 65 123 2323352
+in 27 51 751615
+fr 3 3 11126
+it 2 2 8374
+gb 1 1 4007
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+bot[\s_+:,\.\;\/\\-] 288 1172217 20190630235903 109
+googlebot 143 588935 20190629165254 37
+bingpreview 70 3259417 20190629011227 0
+robot 41 36899 20190628203929 31
+no_user_agent 5 20035 20190624180712 0
+ia_archiver 5 6813 20190613231717 3
+php 5 18762 20190619230156 0
+unknown 4 96 20190617053431 4
+googlebot\-image 3 6945 20190610005735 0
+crawl 2 24 20190624195215 1
+spider 1 2728 20190611033608 0
+netcraft 1 4019 20190602230304 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+svg 229 401829 0 0
+css 867 15253930 0 0
+png 112 844011 0 0
+jpeg 55 10757992 0 0
+eot 1 20050 0 0
+woff2 81 1460268 0 0
+woff 2 46848 0 0
+js 523 18263352 0 0
+html 1 53 0 0
+Unknown 3419 89588480 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+win8 2 2
+winnt 3723 2484
+win7 141 78
+ios_iphone 441 276
+linuxandroid 602 396
+macosx 273 169
+Unknown 8 2
+winlong 2 2
+linux 98 95
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 31
+safari11.0 25 17
+chrome73.0.3683.103 2 1
+chrome67.0.3396.87 310 236
+firefox67.0 48 19
+msie7.0 3 3
+safari 178 118
+netscape5.0 3 2
+msie11.0 29 10
+chrome64.0.3282.140 485 269
+chrome75.0.3770.67 34 16
+opera60.0.3255.151 40 23
+chrome74.0.3729.157 48 30
+safari12.0 194 106
+chrome56.0.2924.87 47 25
+opera12.17 2 2
+chrome75.0.3770.89 30 13
+chrome74.0.3729.169 2189 1490
+chrome74.0.3729.131 3 2
+wget 91 91
+chrome75.0.3770.100 1092 772
+chrome75.0.3770.80 40 22
+mozilla 3 1
+chrome60.0.3112.50 5 2
+firefox52.0 5 4
+safari12.1.2 50 35
+safari11.1.2 81 35
+chrome34.0.1847.116 2 2
+opera38.0.2220.41 2 2
+chrome75.0.3770.101 133 76
+safari12.1.1 115 79
+Unknown 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+MobileSafari/604.1_CFNetwork/978.0.7_Darwin/18.7.0 20190615024815
+python-requests/2.22.0 20190623014731
+MobileSafari/604.1_CFNetwork/975.0.3_Darwin/18.2.0 20190630225641
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20190609160951
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+python-requests/2.22.0 20190623014731
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 373 395
+From1 1 1
+From2 13 16
+From3 3 3
+From4 3114 4875
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 13 13
+bing 0 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://app.xero.com/oauth/ShowAPIVerificationCode 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+504 22 5434
+500 19 422829
+404 70 78750
+302 1018 390220
+444 8 0
+301 229 70250
+401 12 336
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 30
+/weeklNotifications/send/gbkbnaw4o8dbnos744GGJHBOODNE23R9U975CGhdfvHAVooo3 4 -
+/blog/administrator/index.php 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/magento/downloader/index.php 1 -
+/sitemap.xml 1 -
+/magento/index.php/admin 1 -
+/wp/wp-login.php 1 -
+/magento/errors/503.php 1 -
+/apple-touch-icon-120x120.png 1 -
+/index.php/admin 1 -
+/wp-login.php 3 -
+/store/downloader/index.php 1 -
+/connectors/system/phpthumb.php 2 -
+/downloader/index.php 1 -
+/google8c81df76e1d17e95.html 1 -
+/shop/downloader/index.php 1 -
+/joomla/administrator/index.php 1 -
+/administrator/index.php 1 -
+/shop/index.php/admin 1 -
+/store/index.php/admin 1 -
+/errors/503.php 1 -
+/account/check/iaee7svQSWwEIBPyu4jteigVNi7A2nOfYftcTgDgaYfObHo3ya3GXceTOyVH 2 -
+/admin 1 -
+/leaveApplicatio/crudCheck 30 -
+/leaveApplication 5 -
+/store/errors/503.php 1 -
+/vendor/phpunit/phpunit/src/Util/PHP/kill.php 1 -
+/blog/robots.txt 1 -
+/shop/errors/503.php 1 -
+/joomla/robots.txt 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 63
+103.44.234.114 1173 1766 45180653 20190630173111
+103.17.253.149 927 1371 36795878 20190630230313
+155.143.213.206 263 328 11776947 20190629183305
+61.69.254.30 114 236 3961463 20190630212428
+58.84.191.172 107 132 3892438 20190623060826
+27.131.106.46 91 91 92 20190630210005
+112.211.254.13 67 105 4773796 20190617091541
+120.17.166.66 65 89 2005503 20190603160454
+120.23.7.244 64 110 2156403 20190604205512
+119.93.163.82 58 90 3923279 20190615042816
+180.232.156.51 45 66 894518 20190613230717
+175.176.71.1 42 52 2608001 20190616174310
+150.242.34.195 31 38 893976 20190630153413
+110.54.196.228 30 50 1171901 20190625034036
+110.54.201.220 29 47 1019620 20190602170134
+1.128.107.87 27 36 1094830 20190602160617
+103.80.21.58 27 51 751615 20190630200823
+49.147.119.21 26 45 883132 20190629011414
+120.23.73.211 22 41 829274 20190630164453
+175.158.233.129 20 24 1230370 20190613162730
+45.56.146.3 19 31 640448 20190617165617
+175.176.40.92 18 39 624490 20190604050903
+143.238.64.15 17 25 345290 20190602223513
+175.176.71.49 17 29 1292684 20190613015744
+110.54.145.203 16 32 607336 20190626043610
+23.27.153.225 2 2 8014 20190616025534
+2.39.195.88 2 2 8374 20190623023549
+1.128.107.141 6 8 161662 20190603172843
+66.249.91.146 1 1 53 20190609160951
+49.147.199.36 1 1 4007 20190603041102
+54.89.167.233 1 1 4007 20190602165007
+1.129.108.203 2 2 8014 20190612011257
+49.146.47.0 2 3 24769 20190614063829
+159.65.24.22 2 2 14118 20190622043435
+1.128.106.100 2 4 47540 20190610225834
+110.54.228.88 3 5 47966 20190625141138
+52.114.142.71 1 2 5483 20190626050916
+1.128.107.147 11 15 338856 20190603161930
+110.54.225.69 6 25 384712 20190624165444
+35.190.193.225 4 5 50872 20190613081301
+62.210.202.81 3 3 11126 20190602182951
+51.79.25.143 1 1 4007 20190623014731
+1.128.105.116 1 2 26778 20190610024100
+110.54.198.142 1 1 4007 20190626101825
+110.54.162.73 3 5 47966 20190614102443
+110.54.217.158 2 6 49818 20190612170101
+52.114.6.38 1 1 4007 20190613191145
+112.211.154.147 2 4 47540 20190617194806
+49.147.198.245 10 25 452859 20190617214049
+1.128.107.158 5 7 155436 20190602225047
+1.128.105.42 4 5 46505 20190616170012
+18.223.211.103 2 5 89321 20190607210004
+1.132.105.76 11 17 423896 20190610225939
+61.238.203.68 7 14 187446 20190627183508
+175.158.233.131 1 2 191688 20190613183310
+110.54.149.210 5 22 339324 20190629013112
+120.22.82.228 14 29 431805 20190604080545
+45.56.146.9 16 37 716650 20190630225253
+49.146.38.176 10 15 826008 20190613210546
+175.158.233.134 10 13 663390 20190613170737
+45.56.146.13 16 36 790379 20190619000821
+112.211.243.202 2 4 47540 20190624194726
+49.147.205.5 16 34 616933 20190614004550
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20190601 4 4 4007 3
+20190602 413 621 15395859 20
+20190603 190 281 9293126 13
+20190604 105 198 4855985 9
+20190605 27 48 1081260 6
+20190606 9 10 137929 3
+20190607 15 29 414895 4
+20190608 3 3 0 2
+20190609 249 343 9081523 7
+20190610 189 295 7623993 15
+20190611 83 140 3125954 7
+20190612 69 108 2879351 8
+20190613 202 339 8698890 18
+20190614 24 48 694142 5
+20190615 60 92 3923279 3
+20190616 295 430 12228418 15
+20190617 141 221 6383534 14
+20190618 110 154 4378753 7
+20190619 141 206 5686127 8
+20190620 6 6 79415 4
+20190621 4 4 4007 3
+20190622 5 5 14118 3
+20190623 259 325 6362525 10
+20190624 205 294 8647990 13
+20190625 66 95 2578056 7
+20190626 197 318 7332673 10
+20190627 98 163 3824526 8
+20190628 68 85 2044932 5
+20190629 79 122 3844696 7
+20190630 188 303 6016850 13
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 14
+15mn-30mn 9
+30mn-1h 7
+0s-30s 154
+2mn-5mn 13
+30s-2mn 32
+5mn-15mn 21
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 83
+/calendar/feed 433 48176652 1 20
+/calendar/leaveType 296 113225 0 2
+/home 292 15247616 18 1
+/calendar/employee 277 166564 0 0
+/calendar/department 277 90553 0 0
+/login 277 1113738 156 46
+/leaveCapacity/checkcapacity/166 256 11185 1 34
+/leaveCapacity/checkcapacity/204 229 9785 0 24
+/setNotificationRead 175 0 0 4
+/leaveApplication/manage 138 12993135 1 0
+/leaveApplication/check-application 112 7099 0 0
+/leaveCapacity/checkcapacity/116 82 3602 0 10
+/fonts/bootstrap/glyphicons-halflings-regular.woff2 81 1460268 0 7
+/comments 72 148023 0 17
+/leaveAccrualSetting/autoAccrualing/iaee7svQSWwEIBPyu4jteigVNi7A2nOfYftcTgDgaYfObHo3ya3GXceTOyVH 60 0 60 35
+/leaveApplications/create 57 629163 0 2
+/leaveApplications 47 3141488 0 2
+/organisationUsers 39 3282366 0 0
+/site.webmanifest 33 14058 0 3
+/leaveApplication/myLeaves 32 1749609 0 0
+/organisationStructures 29 439305 1 0
+/leaveApplication/crudCheck 24 0 0 23
+/xero 20 68086 0 2
+/organisationStructures/79/edit 20 615860 0 0
+/organisationUser/editUser 9 163388 0 1
+/leaveApplications/901 1 17893 0 0
+/leaveApplications/929 1 20035 0 0
+/leaveApplications/923 2 36660 0 0
+/leaveApplications/868 1 17300 0 0
+/leaveApplications/925 2 37239 0 0
+/leaveApplications/932 1 17912 0 0
+/leaveApplications/911 2 35370 0 0
+/password/reset 4 11068 0 0
+/leaveApplications/905 1 18022 0 0
+/leaveApplications/904 3 55298 0 0
+/xero/callback 2 0 0 0
+/leaveApplications/902 2 37547 0 0
+/xero/skip 1 2803 0 0
+/leaveCapacity/checkcapacity/119 1 53 0 0
+/leaveApplications/899 2 37847 0 0
+/google885c6c08c0429c4a.html 1 53 1 1
+/fonts/bootstrap/glyphicons-halflings-regular.eot 1 20050 0 0
+/leaveCapacity/checkcapacity/207 5 269 0 0
+/leaveApplications/936 2 35293 0 0
+/password/reset/442ef376e9e4e1f32624a3b4874e229da2dfd9f508abef344754fd881593361a 2 6992 0 0
+/leaveApplications/900 1 20058 0 0
+/leaveApplications/906 1 18254 0 0
+/xero/synchronizeuser/79 8 24145 0 1
+/leaveApplications/933 2 36039 0 0
+/leaveAccrualSetting/edit 1 4762 0 0
+/leaveApplications/917 1 18277 0 0
+/userRegisters/create 8 154569 0 0
+/leaveApplications/923/edit 1 10264 0 0
+/xero/disconnect 8 27256 0 0
+/organisationStructures/70/edit 3 91815 0 0
+/leaveApplications/918 1 20176 0 0
+/leaveApplications/919 1 20176 0 0
+/leaveApplications/908 2 38318 0 0
+/register 3 13109 0 3
+/leaveApplications/912 1 17415 0 0
+/leaveApplications/920 2 40237 0 0
+/organisationUser/editEmail 5 72711 0 0
+/organisationUsers/58/edit 1 18257 0 0
+/leaveApplications/914 2 37582 0 0
+/leaveApplications/927 1 19700 0 0
+/leaveApplications/907 3 56081 0 0
+/userRegisters/registerFromToken/aSmoFqHM1QIYnLaCovRB03W63T8u2dZi 1 1125 0 0
+/organisationUsers/62/edit 1 18246 0 0
+/userRegisters/registerFromToken/3nmYXMdaR24qqMAf6gzfYdGre6uyEYrW 5 11589 3 2
+/userRegister/returnlist 2 3881 0 0
+/leaveApplications/921/edit 1 11977 0 0
+/leaveApplications/924 2 39486 0 0
+/leaveApplications/903 1 17906 0 0
+/weeklyNotifications/send/gbkbnaw4o8dbnos744GGJHBOODNE23R9U975CGhdfvHAVooo3 5 0 5 5
+/userRegisters/registerFromToken/rU1LADEDVin6gQUlbB3LLRAmIgsLv7iH 2 2250 1 1
+/leaveApplications/915 3 53293 0 0
+/leaveCapacity/checkcapacity/167 5 210 0 1
+/leaveApplications/912/edit 1 10264 0 0
+/account/signup 3 30333 2 1
+/home/end-guide 4 0 0 0
+/fonts/bootstrap/glyphicons-halflings-regular.woff 2 46848 0 0
+/customizedFeeds 4 56526 0 0
+/account/weeklycheck/iaee7svQSWwEIBPyu4jteigVNi7A2nOfYftcTgDgaYfObHo3ya3GXceTOyVH 2 92 0 2
+END_SIDER

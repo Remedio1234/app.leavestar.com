@@ -1,0 +1,29 @@
+
+removed - composer.json
+"laravel/framework": "5.3.*",
+"infyomlabs/laravel-generator": "5.3.x-dev",
+"yajra/laravel-datatables-oracle": "~6.0",
+"barryvdh/laravel-ide-helper": "^2.1",
+"laravelcollective/html": "5.3.*",
+"infyomlabs/adminlte-templates": "5.3.x-dev",
+"infyomlabs/swagger-generator": "dev-master",
+"jlapp/swaggervel": "dev-master",
+"doctrine/dbal": "~2.3",
+"kalnoy/nestedset": "^4.2",
+"laravel/scout": "^2.0",
+"algolia/algoliasearch-client-php": "^1.16",
+"proengsoft/laravel-jsvalidation": "~1.1",
+"guzzlehttp/guzzle": "^6.2",
+"google/apiclient": "^2.0",
+"league/oauth2-client": "^1.4",
+"microsoft/microsoft-graph": "1.0.*",
+"stripe/stripe-php": "4.*",
+"symfony/polyfill-iconv": "^1.4"
+
+
+
+"fzaninotto/faker": "~1.4",
+"mockery/mockery": "0.9.*",
+"phpunit/phpunit": "~5.0",
+"symfony/css-selector": "3.1.*",
+"symfony/dom-crawler": "3.1.*"
