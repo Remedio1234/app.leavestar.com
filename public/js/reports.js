@@ -3,6 +3,7 @@ $(function () {
         var date_from = $('input[name="date_from"]').val()
         var date_to = $('input[name="date_to"]').val()
         getAttendanceData(date_from, date_to);
+        updateLeaveTaken();
 
         function getAttendanceData(d_from, d_to){
             $.ajax({
@@ -14,6 +15,18 @@ $(function () {
                 },
                 error: function( xhr, status ) {
                     alert( "Sorry, there was a problem!" );
+                }
+            });
+        }
+
+        function updateLeaveTaken(){
+            $.ajax({
+                url: "/reports/leave-taken",
+                data:  {"_token": Laravel.csrfToken},
+                type: "POST",
+                dataType : "json",
+                success: function( data ) {
+                    
                 }
             });
         }

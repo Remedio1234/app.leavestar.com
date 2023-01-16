@@ -103,4 +103,17 @@ class ReportsController extends AppBaseController {
         ORDER BY `emp_name` ASC");
         return $attendance;
     }
+
+    public function updateLeaveTaken(Request $request){
+        if($request->ajax()){
+            $attendance = DB::table('leave_application')
+            ->where('leave_credit', 0)
+            ->update(['leave_credit' => DB::raw("TIMESTAMPDIFF(SECOND,start_date,end_date)")]);
+            
+            if($attendance)
+                echo json_encode(["response" => "successfully updated"]);
+            else 
+                echo json_encode(["response" => "no updates"]);
+        }
+    }
 }

@@ -1,6 +1,6 @@
 <?php
 //if (env('APP_ENV') === 'production') {
-    URL::forceSchema('https');
+    // URL::forceSchema('https');
 //}
 /*
   |--------------------------------------------------------------------------
@@ -173,3 +173,4 @@ Route::get('/xero/test', 'XeroController@test');
 // Reports
 Route::get('reports', 'ReportsController@index');
 Route::get('reports/attendance', 'ReportsController@getAttendanceReports');
+Route::post('reports/leave-taken', 'ReportsController@updateLeaveTaken');
