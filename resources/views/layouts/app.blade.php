@@ -199,8 +199,8 @@ echo json_encode([
             echo $tour;
         }
         ?>
-
-
+        <script src="/js/table2excel.js"></script>
+        <script src="/js/reports.js"></script>
         <script src="/js/jquery.mjs.nestedSortable.js"></script>
         <script src="/js/orgtree.js?version=1.2"></script>
         <script src="/js/matching.js?version=1.3"></script>

@@ -169,3 +169,7 @@ Route::get('/test-mail', function () {
     $user->notify(new \App\Notifications\WeeklyNotification($message));
 });
 Route::get('/xero/test', 'XeroController@test');
+
+// Reports
+Route::get('reports', 'ReportsController@index');
+Route::get('reports/attendance', 'ReportsController@getAttendanceReports');

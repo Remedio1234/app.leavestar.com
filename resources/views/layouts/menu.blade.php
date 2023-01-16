@@ -30,6 +30,11 @@ $manager_list = [
         'route' => '/weeklyNotifications/manage/?queryType=leave-starting',
         'label' => 'Weekly Reminder',
         'id' => 'weekly_reminder',
+    ],
+    [
+        'route' => '/reports',
+        'label' => 'Reports',
+        'id' => 'reports',
     ]
 ];
 $normal_list = [
