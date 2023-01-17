@@ -47,7 +47,7 @@ class CalendarController extends Controller {
     }
 
     public function CHolidayCondensed($org_id) {
-        $color_customHoliday = "";
+        $color_customHoliday = "#ca1629";
         $setting_id = \App\Models\OrganisationStructure::find($org_id)->setting_id;
         $custom_holiday = \App\Models\CustomHoliday::where('setting_id', $setting_id)->get();
         $condensedEvents = [];
@@ -57,7 +57,7 @@ class CalendarController extends Controller {
                 'start' => date("Y-m-d H:i:s", strtotime(\App\Models\Setting::getLocalTime($org_id, $item->start_date, false))),
                 'end' => date("Y-m-d H:i:s", strtotime(\App\Models\Setting::getLocalTime($org_id, $item->end_date, false))),
                 'color' => $color_customHoliday,
-                "textColor" => "black",
+                "textColor" => "#FFF",
                 "editable" => false,
                     //"rendering" => 'background',
             ];
