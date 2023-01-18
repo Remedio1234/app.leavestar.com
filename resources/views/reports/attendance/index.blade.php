@@ -43,6 +43,7 @@
                             class="form-control" 
                             type="text" 
                             name="date_from" 
+                            id="date_from"
                             value="<?php echo date('m/01/Y', strtotime(date("m/d/Y"))) ?>" 
                         />
                         </div>
@@ -52,6 +53,7 @@
                             readonly
                             class="form-control" 
                             type="text" 
+                            id="date_to"
                             name="date_to" 
                             value="<?php echo date('m/t/Y', strtotime(date("m/d/Y")))?>" 
                         />
@@ -74,9 +76,9 @@
                         <thead>
                             <tr style="display:none;">
                                 <th>From:</th>
-                                <th align="left"><span id="txt_from"><?php echo date('d/m/Y')?></span></th>
+                                <th align="left"><span id="txt_from"><?php echo date('m/01/Y', strtotime(date("m/d/Y"))) ?></span></th>
                                 <th>To:</th>
-                                <th align="left"> <span id="txt_to"><?php echo date('d/m/Y')?></span></th>
+                                <th align="left"> <span id="txt_to"><?php echo date('m/t/Y', strtotime(date("m/d/Y")))?></span></th>
                                 <th>&nbsp;</th>
                             </tr>
                             <tr  style="display:none;">
