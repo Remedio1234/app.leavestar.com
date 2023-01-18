@@ -32,6 +32,11 @@ $manager_list = [
         'id' => 'weekly_reminder',
     ],
     [
+        'route' => '/customHolidays',
+        'label' => 'Custom Holidays',
+        'id' => 'custom_holidays',
+    ],
+    [
         'route' => '/reports',
         'label' => 'Reports',
         'id' => 'reports',
@@ -164,11 +169,21 @@ foreach ($list as $item) {
     } else {
         $li_id = "";
     }
+    if($item['id'] == 'custom_holidays') {
     ?>
+    <li class="hidden-xs" id="<?= $li_id ?>">
+    <a 
+        id="holidays_setting" 
+        class="button-open-right"  
+        href="javascript:return false;" 
+        data-href=<?= "/customHolidays/?org_id=" . \Session::get('current_org') ?>  >Custom Holidays</a></li>
+    <?php } else { ?>
     <li class="hidden-xs" id="<?= $li_id ?>">
         <a id="<?= isset($item['id']) ? $item['id'] : "" ?>" href="<?= $item['route'] ?> "><span><?= $item['label'] ?></span></a>
     </li>
     <?php
+    }
+
 }
 ?>
 
