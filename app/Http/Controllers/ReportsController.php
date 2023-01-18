@@ -91,16 +91,15 @@ class ReportsController extends AppBaseController {
 
     private function getAttendanceData($from, $to){
         $root_org_id = \App\Models\OrganisationStructure::findRootOrg(\Session::get('current_org'));
-        $attendance = DB::select("SELECT u.id as user_id, cap.id, u.name as emp_name, lt.name as leave_name, 
-        cap.capacity as balance, SUM(la.leave_credit) as taken 
-        FROM leave_application la 
-        INNER JOIN users u ON la.user_id = u.id 
-        INNER JOIN leave_type lt ON lt.id = la.leave_type_id 
-        INNER JOIN (SELECT id, user_id,org_id,leave_type_id,capacity FROM leave_capacity 
-        WHERE org_id = '".$root_org_id."') cap ON (la.leave_type_id = cap.leave_type_id AND la.user_id = cap.user_id AND la.org_id = cap.org_id) 
-        WHERE la.org_id = '".$root_org_id."' AND (date(la.start_date) >= '".date("Y-m-d", strtotime($from))."' AND date(la.end_date) <= '".date("Y-m-d", strtotime($to))."')
-        GROUP BY u.id, la.leave_type_id, cap.leave_type_id 
-        ORDER BY `emp_name` ASC");
+        $attendance = DB::select("SELECT u.id as user_id, u.name as emp_name, la.leave_name, cap.capacity as balance, la.taken 
+        FROM users u 
+        INNER JOIN (SELECT app.org_id, app.user_id, app.leave_type_id, app.start_date, app.end_date, SUM(app.leave_credit) as taken, lt.name as leave_name FROM leave_application app 
+        INNER JOIN leave_type lt ON lt.id = app.leave_type_id 
+        WHERE app.org_id = 74 AND (date(app.start_date) >= '".date("Y-m-d", strtotime($from))."' AND date(app.end_date) <= '".date("Y-m-d", strtotime($to))."') 
+        GROUP BY app.user_id, app.leave_type_id) la ON la.user_id = u.id 
+        LEFT JOIN (SELECT id, user_id,org_id,leave_type_id, capacity 
+        FROM leave_capacity WHERE org_id = '".$root_org_id."') cap ON (la.leave_type_id = cap.leave_type_id AND la.user_id = cap.user_id AND la.org_id = cap.org_id) 
+        WHERE la.org_id = '".$root_org_id."' GROUP BY u.id, la.leave_type_id, cap.leave_type_id ORDER BY `emp_name` ASC");
         return $attendance;
     }
 

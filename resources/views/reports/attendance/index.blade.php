@@ -43,7 +43,7 @@
                             class="form-control" 
                             type="text" 
                             name="date_from" 
-                            value="<?php echo date("m/d/Y", strtotime("-1 months"));?>" 
+                            value="<?php echo date('m/01/Y', strtotime(date("m/d/Y"))) ?>" 
                         />
                         </div>
                         <div class="col-md-2">
@@ -53,7 +53,7 @@
                             class="form-control" 
                             type="text" 
                             name="date_to" 
-                            value="<?php echo date('m/d/Y')?>" 
+                            value="<?php echo date('m/t/Y', strtotime(date("m/d/Y")))?>" 
                         />
                         </div>
                         <div class="col-md-2">
@@ -83,8 +83,8 @@
                                 <td colSpan="5"></td>
                             </tr>
                             <tr>
-                                <th>Number</th>
-                                <th>Employee</th>
+                                <th>#</th>
+                                <th>Employee Name</th>
                                 <th>Leave Type</th>
                                 <th>Balance</th>
                                 <th>Taken</th>
