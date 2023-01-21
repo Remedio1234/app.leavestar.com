@@ -16,7 +16,7 @@
             <div class='btn-group'>
                 {!! Form::hidden('org_id',$organisationStructure->id , ['class' => 'form-control']) !!}
                 <a href="javascript:return false;" data-href="{!! route('leaveTypes.edit', [  'id'=>$leaveType->id,'org_id'=>$organisationStructure->id  ]) !!}" class='button-open-right'><i class="glyphicon glyphicon-edit"></i></a>
-                {!! Form::button('<i class="glyphicon glyphicon-trash"></i>', ['type' => 'submit', 'class' => 'btn-hidden', 'onclick' => "return confirm('All the related resoureces will be deleted(Leave Applications with this leave type etc.).Are you sure you want to continue? ')"]) !!}
+                <!-- {!! Form::button('<i class="glyphicon glyphicon-trash"></i>', ['type' => 'submit', 'class' => 'btn-hidden', 'onclick' => "return confirm('All the related resoureces will be deleted(Leave Applications with this leave type etc.).Are you sure you want to continue? ')"]) !!} -->
             </div>
             {!! Form::close() !!}
         </td>

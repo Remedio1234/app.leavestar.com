@@ -32,14 +32,14 @@ $manager_list = [
         'id' => 'weekly_reminder',
     ],
     [
-        'route' => '/customHolidays',
-        'label' => 'Custom Holidays',
-        'id' => 'custom_holidays',
+        'route' => '/reports',
+        'label' => 'Attendance Report',
+        'id' => 'reports',
     ],
     [
-        'route' => '/reports',
-        'label' => 'Reports',
-        'id' => 'reports',
+        'route' => '/customHolidays',
+        'label' => 'Show More..',
+        'id' => 'custom_holidays',
     ]
 ];
 $normal_list = [
@@ -176,7 +176,7 @@ foreach ($list as $item) {
         id="holidays_setting" 
         class="button-open-right"  
         href="javascript:return false;" 
-        data-href=<?= "/customHolidays/?org_id=" . \Session::get('current_org') ?>  >Custom Holidays</a></li>
+        data-href=<?= "/customHolidays/?org_id=" . \Session::get('current_org') ?> ><span><?= $item['label'] ?></span></a></li>
     <?php } else { ?>
     <li class="hidden-xs" id="<?= $li_id ?>">
         <a id="<?= isset($item['id']) ? $item['id'] : "" ?>" href="<?= $item['route'] ?> "><span><?= $item['label'] ?></span></a>

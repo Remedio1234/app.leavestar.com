@@ -24,6 +24,7 @@ $class_xero = ($view == 'xeroconnection') ? "active" : "normal";
                 <li class=<?= $class_openhour ?>><a id="openhours_setting" class="button-open-right" href="javascript:return false;" data-href=<?= "/openHours/?org_id=" . $organisationStructure->id ?>   >Business Hours</a></li>
                 <li class=<?= $class_blockdate ?>><a id="blockdates_setting" class="button-open-right" href="javascript:return false;" data-href=<?= "/blockDates/?org_id=" . $organisationStructure->id ?> >Block Dates</a></li> -->
                 <li class=<?= $class_customholiday ?>><a id="holidays_setting" class="button-open-right"  href="javascript:return false;" data-href=<?= "/customHolidays/?org_id=" . $organisationStructure->id ?>  >Custom Holidays</a></li>
+                <li class=<?= $class_leavetype ?> ><a id="leavetype_setting" class="button-open-right" href="javascript:return false;" data-href=<?= "/leaveTypes/?org_id=" . $organisationStructure->id ?>  >Leave Types</a></li>
                 <!-- <li class=<?= $class_sickleave ?>><a id="sickleaves_setting" class="button-open-right" href="javascript:return false;" data-href=<?= "/sickLeaves/?org_id=" . $organisationStructure->id ?>   >Sick Leave Settings</a></li>
                 <?php if (\App\Models\OrganisationStructure::isOrgRoot($organisationStructure->id)) { ?> 
                     <li class=<?= $class_xero ?>><a id="xero_setting" class="button-open-right" href="javascript:return false;" data-href=<?= "/xero/?org_id=" . $organisationStructure->id ?> >Xero Settings</a></li>
